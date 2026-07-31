@@ -1,0 +1,43 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Projects",
+      "color": { "a": 1, "rgb": 4886745 }
+    },
+    {
+      "query": "path:Areas",
+      "color": { "a": 1, "rgb": 6074460 }
+    },
+    {
+      "query": "path:Resources",
+      "color": { "a": 1, "rgb": 15251531 }
+    },
+    {
+      "query": "path:Archive",
+      "color": { "a": 1, "rgb": 8947848 }
+    },
+    {
+      "query": "path:Daily Notes",
+      "color": { "a": 1, "rgb": 11823615 }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.2,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1,
+  "close": false
+}

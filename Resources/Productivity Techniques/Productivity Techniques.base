@@ -1,0 +1,17 @@
+filters:
+  and:
+    - note["base"] == link("Productivity Techniques.base")
+properties:
+  file.name:
+    displayName: Technique
+  status:
+    displayName: Status
+  created:
+    displayName: Created
+views:
+  - type: table
+    name: Techniques
+    order:
+      - file.name
+      - status
+      - created

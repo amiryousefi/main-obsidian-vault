@@ -1,0 +1,17 @@
+filters:
+  and:
+    - note["base"] == link("Content plan.base")
+properties:
+  file.name:
+    displayName: Name
+  Assign:
+    displayName: Assign
+  Status:
+    displayName: Status
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Assign
+      - Status

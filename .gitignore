@@ -1,0 +1,10 @@
+.DS_Store
+.trash/
+
+# Obsidian session state (device-specific)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+
+# Large media (exceeds GitHub 100MB limit — keep locally)
+*.mp4

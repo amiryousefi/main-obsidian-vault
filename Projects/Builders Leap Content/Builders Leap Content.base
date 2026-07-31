@@ -1,0 +1,17 @@
+filters:
+  and:
+    - note["base"] == link("Builders Leap Content.base")
+properties:
+  file.name:
+    displayName: Name
+  status:
+    displayName: Status
+  tags:
+    displayName: Tags
+views:
+  - type: table
+    name: Content
+    order:
+      - file.name
+      - status
+      - tags

@@ -1,0 +1,29 @@
+filters:
+  and:
+    - note["base"] == link("Medium.base")
+properties:
+  file.name:
+    displayName: Name
+  Status:
+    displayName: Status
+  Assign:
+    displayName: Assign
+  Word count:
+    displayName: Word count
+  Created time:
+    displayName: Created time
+  Last edited time:
+    displayName: Last edited time
+  Content:
+    displayName: Content
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Status
+      - Assign
+      - Word count
+      - Created time
+      - Last edited time
+      - Content

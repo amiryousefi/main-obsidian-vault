@@ -1,0 +1,11 @@
+{
+  "attachmentFolderPath": "Attachments",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "newLinkFormat": "shortest",
+  "promptDelete": true,
+  "showInlineTitle": true,
+  "foldHeading": true,
+  "defaultViewMode": "preview",
+  "livePreview": true
+}

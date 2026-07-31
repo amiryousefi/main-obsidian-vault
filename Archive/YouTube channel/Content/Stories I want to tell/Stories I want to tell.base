@@ -1,0 +1,19 @@
+# Stories I want to tell
+
+filters:
+  and:
+    - note["base"] == link("Stories I want to tell.base")
+properties:
+  file.name:
+    displayName: Name
+  Status:
+    displayName: Status
+  Assign:
+    displayName: Assign
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Status
+      - Assign

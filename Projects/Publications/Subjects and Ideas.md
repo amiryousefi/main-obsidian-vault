@@ -1,0 +1,24 @@
+- [ ] Don't forget your pen at a meeting
+- [ ] Go CRUD yourself
+- [ ] A general way to use data tables and Laravel
+- [ ] General crud with Python Django
+- [ ] Standup programming
+- [x] Where to share your medium posts
+- [ ] How to plan an e-commerce system development
+- [ ] Subsystems of an e-commerce system
+- [ ] Database architectures of an e-commerce system
+- [ ] How to evaluate an engineering team
+- [ ] Comments clustering and classification
+- [ ] OCR with tesseract
+- [ ] Where to find remote jobs
+- [ ] List of books for entrepreneurs
+- [ ] A developer journey to product management
+- [ ] Toolchi Series
+    - [ ] Chrome dev tools
+    - [ ] Postman
+    - [ ] PHPStorm
+- [ ] Eliminate the architecture
+- [ ] 10 people that inspire me
+- [ ] ERP implementations challenges
+- [ ] Criticism and why you need that
+- [ ] Fear of the future and A.I rising

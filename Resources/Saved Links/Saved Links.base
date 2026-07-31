@@ -1,0 +1,20 @@
+filters:
+  and:
+    - note["base"] == link("Saved Links.base")
+properties:
+  file.name:
+    displayName: Name
+  created:
+    displayName: Created
+  url:
+    displayName: URL
+  tags:
+    displayName: Tags
+views:
+  - type: table
+    name: Saved Links
+    order:
+      - file.name
+      - created
+      - url
+      - tags
