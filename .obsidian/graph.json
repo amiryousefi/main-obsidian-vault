@@ -9,23 +9,38 @@
   "colorGroups": [
     {
       "query": "path:Projects",
-      "color": { "a": 1, "rgb": 4886745 }
+      "color": {
+        "a": 1,
+        "rgb": 4886745
+      }
     },
     {
       "query": "path:Areas",
-      "color": { "a": 1, "rgb": 6074460 }
+      "color": {
+        "a": 1,
+        "rgb": 6074460
+      }
     },
     {
       "query": "path:Resources",
-      "color": { "a": 1, "rgb": 15251531 }
+      "color": {
+        "a": 1,
+        "rgb": 15251531
+      }
     },
     {
       "query": "path:Archive",
-      "color": { "a": 1, "rgb": 8947848 }
+      "color": {
+        "a": 1,
+        "rgb": 8947848
+      }
     },
     {
       "query": "path:Daily Notes",
-      "color": { "a": 1, "rgb": 11823615 }
+      "color": {
+        "a": 1,
+        "rgb": 11823615
+      }
     }
   ],
   "collapse-display": true,
@@ -38,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1,
+  "scale": 0.26059374716894423,
   "close": false
 }

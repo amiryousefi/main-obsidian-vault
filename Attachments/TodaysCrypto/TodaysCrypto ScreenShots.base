@@ -1,0 +1,12 @@
+views:
+  - type: cards
+    name: ScreenShots
+    filters:
+      and:
+        - file.inFolder("Attachments/TodaysCrypto/ScreenShots")
+    order:
+      - file.name
+    cardSize: 200
+    imageAspectRatio: 1.35
+    imageFit: contain
+    image: file.file

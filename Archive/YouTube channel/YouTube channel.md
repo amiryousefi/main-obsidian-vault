@@ -6,7 +6,7 @@ created: 2021-08-03
 # YouTube Channel
 
 ## Content
-- [[Content|Content pipeline]]
+- [[Archive/YouTube channel/Content/Content|Content pipeline]]
 - [[How to get data from Telegram]]
 - [[Laravel e-commerce development intro]]
 - [[laravel permission]]
