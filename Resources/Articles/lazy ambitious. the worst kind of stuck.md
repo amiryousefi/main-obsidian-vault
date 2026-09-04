@@ -1,3 +1,7 @@
+---
+created: 2026-07-31
+---
+
 ![[G-_y4zkWoAA97gt.jpeg]]
 
 # **lazy ambitious. the worst kind of stuck.**

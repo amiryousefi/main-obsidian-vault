@@ -1,3 +1,7 @@
+---
+created: 2026-09-02
+---
+
 # Main Points
  - Understanding gaming environment
 - 24/7 live system

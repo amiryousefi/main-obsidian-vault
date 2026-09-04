@@ -1,3 +1,7 @@
+---
+created: 2026-07-31
+---
+
 ### Course Introduction
 
 Congrats again on choosing to move forward toward the change you need and the life you want.

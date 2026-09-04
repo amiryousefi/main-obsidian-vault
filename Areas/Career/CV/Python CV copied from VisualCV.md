@@ -1,3 +1,9 @@
+---
+created: 2026-07-31
+---
+
+> [!note] Overlaps with [[Python CV]]. Both are superseded by [[Amir Yousefi - CV]].
+
 [[Amir_Yousefi_VisualCV_Resume - Python CV.pdf]]
 
 # AMIR YOUSEFI

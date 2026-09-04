@@ -1,3 +1,7 @@
+---
+created: 2026-07-31
+---
+
 # Results from the research
 
 - Only 10.9 percent of Instagram accounts ever get to the magic 10k number!

@@ -4,7 +4,6 @@ url: https://medium.com/better-marketing/how-i-averaged-30-000-views-per-article
 base: "[[Saved Links.base]]"
 ---
 
-![[0A-a-um6YyH3wqjsJ.bin]]
 
 Photo by [Damian Zaleski](https://unsplash.com/@zal3wa?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
 

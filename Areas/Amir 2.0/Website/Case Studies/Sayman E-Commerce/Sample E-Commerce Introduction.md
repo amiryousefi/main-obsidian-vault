@@ -1,3 +1,7 @@
+---
+created: 2026-09-04
+---
+
 # معرفی سیستم فروشگاه آنلاین ایران حافظه
 
 > **خلاصه یک‌خطی:** پلتفرم فروشگاهی کامل فارسی (RTL) مبتنی بر Laravel — شامل فروشگاه مشتری، پنل مدیریت، پنل فروشنده، درگاه پرداخت، مدیریت سفارش و تامین، API موبایل، و ابزارهای واردات/گزارش‌گیری.
@@ -284,56 +288,56 @@
 ### صفحه اصلی فروشگاه
 اسلایدر هیرو، دسته‌بندی‌های ویژه، جستجو و ناوبری RTL.
 
-![صفحه اصلی](./screenshots/01-homepage.png)
+![صفحه اصلی](Attachments/Sayman%20E-Commerce/screenshots/01-homepage.png)
 
 ---
 
 ### جستجوی محصول
 فیلتر دسته/برند/قیمت و مرتب‌سازی.
 
-![جستجو](./screenshots/02-search.png)
+![جستجو](Attachments/Sayman%20E-Commerce/screenshots/02-search.png)
 
 ---
 
 ### صفحه محصول
 گالری، قیمت، تنوع، تب مشخصات و نظرات.
 
-![صفحه محصول](./screenshots/03-product.png)
+![صفحه محصول](Attachments/Sayman%20E-Commerce/screenshots/03-product.png)
 
 ---
 
 ### سبد خرید
 مدیریت اقلام قبل از تسویه.
 
-![سبد خرید](./screenshots/04-cart.png)
+![سبد خرید](Attachments/Sayman%20E-Commerce/screenshots/04-cart.png)
 
 ---
 
 ### ورود مشتری (OTP)
 احراز هویت با شماره موبایل.
 
-![ورود مشتری](./screenshots/05-login.png)
+![ورود مشتری](Attachments/Sayman%20E-Commerce/screenshots/05-login.png)
 
 ---
 
 ### ورود پنل مدیریت
 ورود ادمین با موبایل و رمز عبور.
 
-![ورود ادمین](./screenshots/06-admin-login.png)
+![ورود ادمین](Attachments/Sayman%20E-Commerce/screenshots/06-admin-login.png)
 
 ---
 
 ### صفحه درباره ما
 صفحات محتوایی ثابت.
 
-![درباره ما](./screenshots/07-about.png)
+![درباره ما](Attachments/Sayman%20E-Commerce/screenshots/07-about.png)
 
 ---
 
 ### مقایسه محصول
 مقایسه side-by-side چند کالا.
 
-![مقایسه](./screenshots/08-compare.png)
+![مقایسه](Attachments/Sayman%20E-Commerce/screenshots/08-compare.png)
 
 ---
 

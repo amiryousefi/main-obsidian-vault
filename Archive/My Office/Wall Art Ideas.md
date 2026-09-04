@@ -1,3 +1,6 @@
+---
+created: 2026-07-31
+---
 
 <!-- Column 1 -->
 ![[Untitled.png]]

@@ -1,3 +1,7 @@
+---
+created: 2026-09-02
+---
+
 # Main Points
 - Migrating from old system
 - Data in wordpress
@@ -18,5 +22,5 @@
 	- Documentation
 - Migrating data and platform from WordPress to Laravel e-commerce with almost 0 downtime
 # Full Features List
-[Sample Implementation Intro.](Sample_E-Commerce_Introduction.md)
-[Non Technical Introduction](Non-Technical_Introduction.md)
+[[Sample E-Commerce Introduction|Sample implementation intro]]
+[[Non-Technical Introduction]]

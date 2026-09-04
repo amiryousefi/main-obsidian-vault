@@ -6,6 +6,7 @@ created: 2022-01-31
 
 Résumés, CVs, and professional identity.
 
+- [[Amir Yousefi - CV]] — clean consolidated version (LinkedIn + CV file)
 - [[Amir Yousefi - Senior Developer]]
 - [[Amir Yousefi Resumes]]
 - [[CV/Python CV|Python CV]]

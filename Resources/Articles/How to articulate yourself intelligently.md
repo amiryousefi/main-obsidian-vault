@@ -1,3 +1,7 @@
+---
+created: 2026-07-31
+---
+
 # **How to articulate yourself intelligently**
 
 ![[Q7ZZqVFa_x96.jpg]]

@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"f36c941393afcaec","x":-520,"y":-380,"width":250,"height":60,"type":"text","text":"Amir 2.0"},
+		{"id":"3553c8dc691fc253","x":-140,"y":-380,"width":250,"height":60,"type":"text","text":"Projects"},
+		{"id":"75a4b5f9a44b7a4e","x":280,"y":-83,"width":250,"height":60,"type":"text","text":"IMC E-Commerce"},
+		{"id":"1ac58f2e293d498d","x":280,"y":-398,"width":250,"height":60,"type":"text","text":"OxinGame"},
+		{"id":"b9fc0545fe61a912","x":620,"y":-398,"width":250,"height":60,"type":"text","text":"Oxin Website"},
+		{"id":"c141d04f8d8ac99f","x":620,"y":-300,"width":250,"height":60,"type":"text","text":"Oxin VoD Platform"},
+		{"id":"7849409d158bf569","x":620,"y":-500,"width":250,"height":60,"type":"text","text":"Oxin Automation"},
+		{"id":"666876b2ca6fa8b0","x":-347,"y":22,"width":250,"height":60,"type":"text","text":"GulfTech"},
+		{"id":"ec67ca5da9fe8728","x":-1067,"y":-300,"width":250,"height":60,"type":"text","text":"Personal Website"}
+	],
+	"edges":[
+		{"id":"0f592a2f332eaf18","fromNode":"f36c941393afcaec","fromSide":"right","toNode":"3553c8dc691fc253","toSide":"left"},
+		{"id":"bfb1dc3eb268cde0","fromNode":"3553c8dc691fc253","fromSide":"right","toNode":"1ac58f2e293d498d","toSide":"left"},
+		{"id":"cb004cf8c55ff62c","fromNode":"1ac58f2e293d498d","fromSide":"right","toNode":"7849409d158bf569","toSide":"left"},
+		{"id":"1e96e7f9cb3eeb71","fromNode":"1ac58f2e293d498d","fromSide":"right","toNode":"b9fc0545fe61a912","toSide":"left"},
+		{"id":"bb6e3503818c4f44","fromNode":"1ac58f2e293d498d","fromSide":"right","toNode":"c141d04f8d8ac99f","toSide":"left"},
+		{"id":"42414446df4507d4","fromNode":"3553c8dc691fc253","fromSide":"right","toNode":"75a4b5f9a44b7a4e","toSide":"left"},
+		{"id":"a406bdb6b239aff1","fromNode":"f36c941393afcaec","fromSide":"bottom","toNode":"666876b2ca6fa8b0","toSide":"left"},
+		{"id":"52e17d7cfcb13354","fromNode":"f36c941393afcaec","fromSide":"left","toNode":"ec67ca5da9fe8728","toSide":"right"}
+	]
+}

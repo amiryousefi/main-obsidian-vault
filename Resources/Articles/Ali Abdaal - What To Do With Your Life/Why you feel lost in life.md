@@ -1,3 +1,7 @@
+---
+created: 2026-07-31
+---
+
 # Ali Abdaal: Why You Feel Lost in Life
 
 ![](https://youtu.be/PtMLCL_T2ak?si=SqeSeXNfs4w2d5g6)

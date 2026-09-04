@@ -1,3 +1,7 @@
+---
+created: 2026-07-31
+---
+
 Hey Amir,
 
 You did it! You made it to the final day of The Unstuck Challenge. 🥳

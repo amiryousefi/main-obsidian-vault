@@ -1,3 +1,7 @@
+---
+created: 2026-07-31
+---
+
 - daily training(yoga)
 - daily writing
 - brushing teeth

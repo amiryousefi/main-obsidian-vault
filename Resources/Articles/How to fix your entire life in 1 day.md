@@ -1,3 +1,7 @@
+---
+created: 2026-07-31
+---
+
 ![[G-efypCbQAEEi8a.jpeg]]
 
 # **How to fix your entire life in 1 day**

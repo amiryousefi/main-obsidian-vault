@@ -1,3 +1,7 @@
+---
+created: 2026-07-31
+---
+
 Welcome to Day 4!
 
 **Today is all about the power of making a decision.**

@@ -1,3 +1,7 @@
+---
+created: 2026-08-25
+---
+
 # TodaysCrypto — Platform Feature Report
 
 > **Date:** May 8, 2026  

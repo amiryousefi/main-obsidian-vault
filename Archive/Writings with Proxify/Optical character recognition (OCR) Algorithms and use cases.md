@@ -1,3 +1,7 @@
+---
+created: 2026-07-31
+---
+
 Feb 01, 2021 · 6 min read
 
 Does your mobile app ask people to type their ID or payment details to complete some tasks? That must be one of the things your users like the least about your app. Entering important data on the go, on a small screen, double-checking for errors – a sure path to frustration for many.

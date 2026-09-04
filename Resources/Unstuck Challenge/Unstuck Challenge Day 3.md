@@ -1,3 +1,7 @@
+---
+created: 2026-07-31
+---
+
 We're halfway there,  Amir.
 
 This is the point where most people tend to drop off...

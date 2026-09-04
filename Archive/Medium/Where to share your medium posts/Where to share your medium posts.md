@@ -1,3 +1,7 @@
+---
+created: 2026-07-31
+---
+
 ## Intro
 
 One thing you will learn writing on Medium is that you are not done when you have finished your writing. As they always say "sharing is caring" and before anybody else you need to reach out and share your articles.

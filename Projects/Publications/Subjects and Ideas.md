@@ -1,3 +1,7 @@
+---
+created: 2026-07-31
+---
+
 - [ ] Don't forget your pen at a meeting
 - [ ] Go CRUD yourself
 - [ ] A general way to use data tables and Laravel

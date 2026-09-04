@@ -1,3 +1,7 @@
+---
+created: 2026-09-04
+---
+
 # راهنمای فروشگاه آنلاین ایران حافظه
 
 > **برای چه کسی است؟** مدیران، صاحبان کسب‌وکار، و تیم فروش — بدون نیاز به دانش فنی.
@@ -30,7 +34,7 @@
 
 اولین چیزی که مشتری می‌بیند: بنرهای جذاب، دسته‌بندی‌های پرکاربرد، پیشنهادهای ویژه، جدیدترین و پرفروش‌ترین کالاها.
 
-![صفحه اصلی فروشگاه](./screenshots/live/01-homepage.png)
+![صفحه اصلی فروشگاه](Attachments/Sayman%20E-Commerce/screenshots/live/01-homepage.png)
 
 **امکانات صفحه اصلی:**
 - اسلایدر تبلیغاتی با دکمه «بررسی و خرید»
@@ -45,7 +49,7 @@
 
 مشتری می‌تواند با نام محصول جستجو کند یا از طریق دسته‌بندی‌ها مرور کند. فیلتر بر اساس قیمت، برند و موجودی هم دارد.
 
-![جستجوی محصول](./screenshots/live/02-search.png)
+![جستجوی محصول](Attachments/Sayman%20E-Commerce/screenshots/live/02-search.png)
 
 ---
 
@@ -53,7 +57,7 @@
 
 صفحه‌ای که مشتری قبل از خرید تصمیم می‌گیرد:
 
-![صفحه محصول](./screenshots/live/05-product.png)
+![صفحه محصول](Attachments/Sayman%20E-Commerce/screenshots/live/05-product.png)
 
 **چه چیزهایی نمایش داده می‌شود:**
 - عکس‌های محصول
@@ -71,7 +75,7 @@
 
 مشتری قبل از پرداخت، سبد خود را می‌بیند و می‌تواند تعداد را تغییر دهد یا کالا حذف کند.
 
-![سبد خرید](./screenshots/live/03-cart.png)
+![سبد خرید](Attachments/Sayman%20E-Commerce/screenshots/live/03-cart.png)
 
 ---
 
@@ -79,7 +83,7 @@
 
 برای تکمیل خرید، مشتری با **شماره موبایل** وارد می‌شود (کد یکبار مصرف پیامکی) یا با رمز عبور / حساب Google.
 
-![ورود مشتری](./screenshots/live/04-login.png)
+![ورود مشتری](Attachments/Sayman%20E-Commerce/screenshots/live/04-login.png)
 
 **بعد از ورود، مشتری می‌تواند:**
 - سفارش‌های قبلی را ببیند
@@ -118,7 +122,7 @@
 
 ورود مدیران از آدرس: [vb.amiryousefi.com/admin](https://vb.amiryousefi.com/admin)
 
-![ورود پنل مدیریت](./screenshots/live/06-admin-login.png)
+![ورود پنل مدیریت](Attachments/Sayman%20E-Commerce/screenshots/live/06-admin-login.png)
 
 ---
 
@@ -126,7 +130,7 @@
 
 با یک نگاه می‌بینید فروشگاه چطور است:
 
-![داشبورد مدیریت](./screenshots/live/07-admin-dashboard.png)
+![داشبورد مدیریت](Attachments/Sayman%20E-Commerce/screenshots/live/07-admin-dashboard.png)
 
 **اطلاعات روی داشبورد:**
 - تعداد کاربران
@@ -146,7 +150,7 @@
 
 لیست همه محصولات با امکان جستجو، فیلتر و ویرایش:
 
-![لیست محصولات](./screenshots/live/08-admin-products.png)
+![لیست محصولات](Attachments/Sayman%20E-Commerce/screenshots/live/08-admin-products.png)
 
 **کارهایی که می‌توانید انجام دهید:**
 - افزودن محصول جدید (عکس، عنوان، توضیحات، دسته، برند)
@@ -162,7 +166,7 @@
 
 پیگیری کامل هر سفارش از لحظه ثبت تا تحویل:
 
-![لیست سفارشات](./screenshots/live/09-admin-orders.png)
+![لیست سفارشات](Attachments/Sayman%20E-Commerce/screenshots/live/09-admin-orders.png)
 
 **مراحل یک سفارش:**
 1. **در انتظار** — مشتری ثبت کرده
@@ -186,7 +190,7 @@
 
 بدون نیاز به برنامه‌نویس، محتوای صفحه اول سایت را تغییر دهید:
 
-![تنظیمات صفحه اصلی](./screenshots/live/10-admin-home-settings.png)
+![تنظیمات صفحه اصلی](Attachments/Sayman%20E-Commerce/screenshots/live/10-admin-home-settings.png)
 
 **قابل تنظیم:**
 - **اسلایدهای هیرو** — بنرهای بالای صفحه با عنوان و محصولات
@@ -197,7 +201,7 @@
 
 ### مدیریت کاربران
 
-![مدیریت کاربران](./screenshots/live/11-admin-users.png)
+![مدیریت کاربران](Attachments/Sayman%20E-Commerce/screenshots/live/11-admin-users.png)
 
 سه نوع کاربر:
 - **مدیران** — دسترسی کامل

@@ -3,6 +3,8 @@ status: draft
 created: 2020-10-30
 ---
 
+> [!note] Overlaps with [[Python CV copied from VisualCV]]. Both are superseded by [[Amir Yousefi - CV]].
+
 # Cover letter
 
 I have 7+ years of experience in software engineering. These are some of my experiences with Python but I have experience with other programming languages such as PHP and JS. Besides my back-end knowledge, I worked with HTML, CSS, and JS. Also, I shared my experiences in GitHub as open-source projects and I write about my works in Medium. My articles have more than 100K views and my GitHub repositories get's stars and forks regularly.

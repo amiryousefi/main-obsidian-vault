@@ -1,3 +1,7 @@
+---
+created: 2026-07-31
+---
+
 ## What's TDD?
 
 Non-technically speaking, test driven development is about writing tests first, which obviously fails, then writing code to pass the test, 

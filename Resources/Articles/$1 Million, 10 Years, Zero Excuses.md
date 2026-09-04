@@ -1,3 +1,7 @@
+---
+created: 2026-07-31
+---
+
 # **$1 Million, 10 Years, Zero Excuses**
 
 ![[hundred-dollar-bills-collage-e1430081395287-150x150.jpg]]

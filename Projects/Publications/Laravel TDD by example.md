@@ -1,3 +1,7 @@
+---
+created: 2026-07-31
+---
+
 > [!note]+ Intro
 > > [!note]+ what's TDD
 > 

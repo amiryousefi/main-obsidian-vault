@@ -1,18 +1,22 @@
-# [Oxin Game Case Study](Oxin%20Game%20Case%20Study.md)
+---
+created: 2026-09-02
+---
+
+# [[Oxin Game Case Study|Oxin Game Case Study]]
 - Understanding gaming environment
 - 24/7 live system
 - Integrating with iCafeCloud system
 - A multi-potential environment with different projects
 - Using AI to enhance development
 - System features
-# [Today's Crypto](Todays%20Crypto%20Case%20Study.md)
+# [[Todays Crypto Case Study|Today's Crypto]]
 - leading team
 - building team
 - stakeholder meeting
 - chaotic startup environment
 - development flow
 - product features we built
-# [Sayman E-Commerce Case Study](Sayman%20E-Commerce%20Case%20Study.md)
+# [[Sayman E-Commerce Case Study|Sayman E-Commerce Case Study]]
 - Migrating from old system
 - Leading team of 5
 - Breaking big e-commerce into sub-systems
@@ -22,7 +26,7 @@
 - ERP implementation
 - Development workflow
 - Migrating data and platform from WordPress to Laravel e-commerce with almost 0 downtime
-# [Asr'e Ahan](Asr'e%20Ahan.md)
+# [[Asr'e Ahan|Asr'e Ahan]]
 - Consulting on hiring dev team
 - Developer handbook
 - Git and software development flow

@@ -4,7 +4,6 @@ url: https://entrepreneurshandbook.co/i-sat-down-with-a-6-figure-blogger-and-thi
 base: "[[Saved Links.base]]"
 ---
 
-![[0DfE6_h0U1IPNypr0.bin]]
 
 ## “Focus on Impacting 1 Person, Not 1,000,000” — Tom Kuegler
 

@@ -7,7 +7,7 @@ created: 2026-07-31
 Reference material — articles, saved links, courses, and tools.
 
 ## Collections
-- [[Articles/]]
+- [[Articles/Articles|Articles]]
 - [[Saved Links/Saved Links|Saved Links]]
 - [[Productivity Techniques/Productivity Techniques|Productivity Techniques]]
 - [[Unstuck Challenge/Unstuck Challenge|Unstuck Challenge]]
@@ -15,4 +15,3 @@ Reference material — articles, saved links, courses, and tools.
 
 ## Notable
 - [[Structured-Prompt-Driven Development (SPDD)]]
-- [[Coding Posters for Programmers  theCode.xyz]]

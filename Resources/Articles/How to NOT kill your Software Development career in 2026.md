@@ -1,3 +1,7 @@
+---
+created: 2026-07-31
+---
+
 # **How to NOT kill your Software Development career in 2026.**
 
 ![[4YHubV3Y_x96.jpg]]

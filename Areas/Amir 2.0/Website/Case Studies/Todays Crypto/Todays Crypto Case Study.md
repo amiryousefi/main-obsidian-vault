@@ -1,3 +1,7 @@
+---
+created: 2026-09-02
+---
+
 # Main Points
 - leading team
 - building team
@@ -7,7 +11,7 @@
 - product features we built
 
 # Full Feature List
-[Platform Feature Report](PLATFORM_FEATURE_REPORT)
+[[Platform Feature Report]]
 # Screen Shots & Demo
 
 ![[TodaysCrypto ScreenShots.base]]

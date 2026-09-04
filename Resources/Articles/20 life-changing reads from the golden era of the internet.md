@@ -1,3 +1,7 @@
+---
+created: 2026-07-31
+---
+
 # **20 life-changing reads from the golden era of the internet**
 
 1. [**$1 Million, 10 Years, Zero Excuses - WSP**](https://web.archive.org/web/20190701191202/http://wallstreetplayboys.com/1-million-10-years-zero-excuses)

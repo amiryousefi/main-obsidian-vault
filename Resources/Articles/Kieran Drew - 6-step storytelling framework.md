@@ -1,3 +1,7 @@
+---
+created: 2026-07-31
+---
+
 ## To view keyboard shortcuts, press question mark[View keyboard shortcuts](https://twitter.com/i/keyboard_shortcuts)
 
 **How to sell anything with a simple 6-step storytelling framework (with examples) **[**Kieran Drew**](https://twitter.com/ItsKieranDrew)[@ItsKieranDrew](https://twitter.com/ItsKieranDrew)· 2026-03-21T19:15:00.000+03:30 How to sell anything with a simple 6-step storytelling framework:  (a thread with examples)**

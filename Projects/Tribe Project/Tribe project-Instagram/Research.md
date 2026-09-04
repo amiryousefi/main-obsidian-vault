@@ -1,3 +1,6 @@
+---
+created: 2026-07-31
+---
 
 [https://www.marismith.com/magic-of-10k-instagram-followers-no-gimmicks-approach/](https://www.marismith.com/magic-of-10k-instagram-followers-no-gimmicks-approach/)
 
