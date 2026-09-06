@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1788707992348-lls78ls6k",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788708949988-9974hu9",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1788708949578-50jlvi8",
+      "timestamp": 1788708949578,
+      "rawDisplayText": "make the story part in english",
+      "canonicalText": "make the story part in english",
+      "context": {
+        "linkedContent": {
+          "path": "Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Asr'e Ahan.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "67ef1d5e49d9f2d70acfde61432e2d3c414d2bba7378651680b0a679480edd61",
+      "providerUserMessageId": "02d0b92c-f94d-4095-9e14-804f87e0ab01",
+      "providerAssistantMessageId": "248966c9-434f-442a-a9cb-19a4ac4c558f"
+    }
+  ]
+}
