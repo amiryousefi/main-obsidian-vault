@@ -1,0 +1,24 @@
+{
+  "id": "conv-1788796783169-uwid63loo",
+  "providerId": "claude",
+  "title": "Clean Word pasted content",
+  "titleGenerationStatus": "success",
+  "createdAt": 1788796783185,
+  "lastActivityAt": 1788796911336,
+  "sessionId": "cc7a887b-c772-49a2-b322-4170e31a6d9a",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "cc7a887b-c772-49a2-b322-4170e31a6d9a"
+  },
+  "linkedContentPath": "Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Old-Team Termination Protocol.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 677,
+    "cacheReadInputTokens": 40641,
+    "contextWindow": 1000000,
+    "contextTokens": 41320,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

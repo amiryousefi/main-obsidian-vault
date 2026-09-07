@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1788799822446-czx2h8brf",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788799822540-0fq0jxa",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1788799822420-8ta3m13",
+      "timestamp": 1788799822421,
+      "rawDisplayText": "Make # My Story(Farsi) section in english in a new section",
+      "canonicalText": "Make # My Story(Farsi) section in english in a new section",
+      "context": {
+        "editorSelection": {
+          "notePath": "Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Asr'e Ahan.md",
+          "mode": "selection",
+          "selectedText": "# My Story(Farsi)",
+          "lineCount": 1,
+          "startLine": 27
+        }
+      },
+      "images": [],
+      "contentDigest": "b182ebb1e4a6a0d877c522293d9fbb8cec74677285b7801eb02e0068d3013319",
+      "providerUserMessageId": "53c09f93-7379-4d5c-8539-66d632a0c3cf",
+      "providerAssistantMessageId": "7c552a84-7505-4205-afb4-515cad01aaf0"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788799996862-xdbsjvx",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1788799996846-5iniwf6",
+      "timestamp": 1788799996846,
+      "rawDisplayText": "what do you understand from @Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Amir Consultancy Contract with Asr'e Ahan.md \nAnd what part can goes in the my story in english",
+      "canonicalText": "what do you understand from @Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Amir Consultancy Contract with Asr'e Ahan.md \nAnd what part can goes in the my story in english",
+      "images": [],
+      "contentDigest": "dc0c2662ddcd77ffdbd505c222d6346f710fd4157c55d6a0894cac9a947facc0",
+      "providerUserMessageId": "9bca8114-e445-46e0-a47d-166d2f410e98",
+      "providerAssistantMessageId": "26645f60-01b6-4f57-b051-e47f1a8ac5a8"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788800983018-sc0hfgm",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1788800982989-4e4bvrs",
+      "timestamp": 1788800982989,
+      "rawDisplayText": "for the joining part lay it out in the paragraph after \"a few months later...\"\nPoint it out as I cam in after the disastersous time without going with no consultant alongside them.\n\nEmphasize on COVID time, I completely forgot that.\nI don't know where to put it but it made the hiring process and candidates even more complex. also the developer handbook and developlment flow must be thinked as completly remote, a thing that in that time was not yet that popular.",
+      "canonicalText": "for the joining part lay it out in the paragraph after \"a few months later...\"\nPoint it out as I cam in after the disastersous time without going with no consultant alongside them.\n\nEmphasize on COVID time, I completely forgot that.\nI don't know where to put it but it made the hiring process and candidates even more complex. also the developer handbook and developlment flow must be thinked as completly remote, a thing that in that time was not yet that popular.",
+      "images": [],
+      "contentDigest": "6d3d97e12a5704b9240a684a42d22d5c3dcbf0100db63e81f7df51ecdb740046",
+      "providerUserMessageId": "73333ed7-2bce-4a41-99be-5264546247eb",
+      "providerAssistantMessageId": "b7738252-cd9d-491f-993c-669a8a73cc70"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788801139755-fd7f5qp",
+      "userTurnOrdinal": 4,
+      "state": "accepted",
+      "localMessageId": "msg-1788801139727-rjyyywj",
+      "timestamp": 1788801139728,
+      "rawDisplayText": "Separate the story parts into separate files under Asr'e Ahan folder.\nKeep farsi as origianl.\nEnhance enmglish one with these further suggestions you made.\nLink both to the main file",
+      "canonicalText": "Separate the story parts into separate files under Asr'e Ahan folder.\nKeep farsi as origianl.\nEnhance enmglish one with these further suggestions you made.\nLink both to the main file",
+      "images": [],
+      "contentDigest": "fc179d02f0cd7420a8c13a1cde239fad4f61bf29af44e47d1871ac0fe5c74248",
+      "providerUserMessageId": "c578f692-a1b5-4344-a0eb-d8e9b978f186",
+      "providerAssistantMessageId": "32e074a2-6ace-436d-b275-df1d614c2802"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788801301672-rtkyjmx",
+      "userTurnOrdinal": 5,
+      "state": "accepted",
+      "localMessageId": "msg-1788801301642-kqqjula",
+      "timestamp": 1788801301642,
+      "rawDisplayText": "under Asr'e ahan related documents which are under the folder, go through files and see what other parts can make my story more strong to my target audience",
+      "canonicalText": "under Asr'e ahan related documents which are under the folder, go through files and see what other parts can make my story more strong to my target audience",
+      "images": [],
+      "contentDigest": "5f97fd1bad742d127597032b2ce165a1b049ac17c66bc5c802ee066b78c8b0b8",
+      "providerUserMessageId": "e76af168-a297-4130-957e-a1bf46bb2c6f",
+      "providerAssistantMessageId": "6eaad8d5-805f-4d4b-8ed5-b4251cea7f4a"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788801954577-0fxmi4g",
+      "userTurnOrdinal": 6,
+      "state": "accepted",
+      "localMessageId": "msg-1788801954536-9c2nzrc",
+      "timestamp": 1788801954537,
+      "rawDisplayText": "Proceed with this plan.\ninclude a few pargrah about the handbook and how this single core document transcend the process and simplicity and transparency of it made sure that the process is still clean, outcome-based and evolving even after years I left that company.\n\nFormat the story with propper headlines and bullet points and everything that a great article need to be easy to read.",
+      "canonicalText": "Proceed with this plan.\ninclude a few pargrah about the handbook and how this single core document transcend the process and simplicity and transparency of it made sure that the process is still clean, outcome-based and evolving even after years I left that company.\n\nFormat the story with propper headlines and bullet points and everything that a great article need to be easy to read.",
+      "images": [],
+      "contentDigest": "f4fbe327b8ecd4dd2456e54980a191d1cc23efcb1ac1c7a8d5fe068b90a34fd4",
+      "providerUserMessageId": "e51448cd-7de6-46cd-89ed-54b28972d147",
+      "providerAssistantMessageId": "cabdffdb-81f1-4516-906b-90a6f8ecf238"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788802635059-okcvo7q",
+      "userTurnOrdinal": 7,
+      "state": "accepted",
+      "localMessageId": "msg-1788802635046-g1xalwo",
+      "timestamp": 1788802635046,
+      "rawDisplayText": "remove bak files.\nalso can you change the skill word-paste-cleanup to not produce those bak files here",
+      "canonicalText": "remove bak files.\nalso can you change the skill word-paste-cleanup to not produce those bak files here",
+      "images": [],
+      "contentDigest": "826fa3bafaa538e9f65baf0959c42564c51c6bb0254e75323a5b74b036d73c23",
+      "providerUserMessageId": "4d683365-abc1-485e-8977-33d91ffccdd4",
+      "providerAssistantMessageId": "3e14c655-f13a-46b2-b9d6-1838d595a707"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788802837397-zcms3zu",
+      "userTurnOrdinal": 8,
+      "state": "accepted",
+      "localMessageId": "msg-1788802837339-d78ssw5",
+      "timestamp": 1788802837339,
+      "rawDisplayText": "from asre ahan can you include the about company and numbers part to the story too?\ndo you think it worth it?\nNo mention of iran",
+      "canonicalText": "from asre ahan can you include the about company and numbers part to the story too?\ndo you think it worth it?\nNo mention of iran",
+      "images": [],
+      "contentDigest": "f9a85c1613b1b2871112ae11983cd1f088070ce680c2a80ee56196e7ce23b512",
+      "providerUserMessageId": "b79e449d-0a85-4e12-8a71-ed46d08a8410",
+      "providerAssistantMessageId": "aaaec741-1df3-4f68-895e-9bee1c049c2b"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788803046982-5boib6l",
+      "userTurnOrdinal": 9,
+      "state": "accepted",
+      "localMessageId": "msg-1788803046939-mctgftn",
+      "timestamp": 1788803046940,
+      "rawDisplayText": "Also from the logos add a few graphics",
+      "canonicalText": "Also from the logos add a few graphics",
+      "images": [],
+      "contentDigest": "ee7babd854fb0e34d3da04043d4150a7f44c32ac3035bb33f2800b06d4a06284",
+      "providerUserMessageId": "e20846ce-1f86-419d-a9aa-33bcb5220baf",
+      "providerAssistantMessageId": "98337049-7b59-4663-85b7-3b0ecb0451f5"
+    }
+  ]
+}

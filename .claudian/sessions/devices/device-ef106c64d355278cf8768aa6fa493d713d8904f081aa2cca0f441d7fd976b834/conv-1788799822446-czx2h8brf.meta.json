@@ -1,0 +1,23 @@
+{
+  "id": "conv-1788799822446-czx2h8brf",
+  "providerId": "claude",
+  "title": "Translate My Story section from Farsi to English",
+  "titleGenerationStatus": "success",
+  "createdAt": 1788799822476,
+  "lastActivityAt": 1788803101565,
+  "sessionId": "67ac445d-1382-43b2-9ab0-ebc1381ed1fe",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "67ac445d-1382-43b2-9ab0-ebc1381ed1fe"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 1010,
+    "cacheReadInputTokens": 80838,
+    "contextWindow": 1000000,
+    "contextTokens": 81850,
+    "percentage": 8,
+    "contextWindowIsAuthoritative": true
+  }
+}

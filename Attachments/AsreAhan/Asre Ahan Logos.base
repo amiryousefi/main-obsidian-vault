@@ -1,0 +1,21 @@
+filters:
+  and:
+    - file.inFolder("Attachments/AsreAhan/Logo")
+    - or:
+        - file.ext == "png"
+        - file.ext == "svg"
+        - file.ext == "jpg"
+        - file.ext == "jpeg"
+formulas:
+  cover: link(file.path)
+properties:
+  file.name:
+    displayName: Name
+  file.ext:
+    displayName: Type
+views:
+  - type: cards
+    name: Logo Gallery
+    order:
+      - file.name
+    image: formula.cover

@@ -4,7 +4,7 @@
   "title": "Translate story to English",
   "titleGenerationStatus": "success",
   "createdAt": 1788707992377,
-  "lastActivityAt": 1788708972917,
+  "lastActivityAt": 1788796763747,
   "sessionId": "1f558e39-520a-4cec-a7d8-0047a9cefd54",
   "selectedModel": "opus",
   "providerState": {
@@ -13,12 +13,12 @@
   "linkedContentPath": "Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Asr'e Ahan.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 2,
+    "inputTokens": 0,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 17070,
+    "cacheReadInputTokens": 0,
     "contextWindow": 1000000,
-    "contextTokens": 17072,
-    "percentage": 2,
+    "contextTokens": 0,
+    "percentage": 0,
     "contextWindowIsAuthoritative": true
   }
 }

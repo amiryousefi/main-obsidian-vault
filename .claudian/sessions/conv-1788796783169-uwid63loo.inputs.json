@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1788796783169-uwid63loo",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788796783211-r1t3si4",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1788796783160-zv6x83x",
+      "timestamp": 1788796783160,
+      "rawDisplayText": "/word-paste-cleanup",
+      "canonicalText": "/word-paste-cleanup",
+      "context": {
+        "linkedContent": {
+          "path": "Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Old-Team Termination Protocol.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "dc76b6dd7aefaf85e74b7db09a939522ab587880634deb2d5a5cef8d2efb5b86",
+      "providerUserMessageId": "c6fd3d52-abc0-4dbf-81f9-a9cb6382a59b",
+      "providerAssistantMessageId": "9c713824-a704-4328-9be1-b2665e312719"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788796830376-sjw0uw7",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1788796830367-nv033g9",
+      "timestamp": 1788796830367,
+      "rawDisplayText": "/word-paste-cleanup @Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Developer Handbook.md",
+      "canonicalText": "/word-paste-cleanup @Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Developer Handbook.md",
+      "images": [],
+      "contentDigest": "d6088acda851554b62c6f5e0bb4587d36342a0154438f6a0887ecc3195601fae",
+      "providerUserMessageId": "1deac93f-2598-4a26-8b97-afb0eb5abc77",
+      "providerAssistantMessageId": "82d73866-e6a5-4180-9cee-36337d9e405b"
+    }
+  ]
+}

@@ -2,13 +2,36 @@
 created: 2026-09-02
 ---
 # Main points
- - Consulting on hiring dev team
+- Consulting on hiring dev team
 - Developer handbook
 - Git and software development flow
 - Consulting on tech stack
-# Story
-My friend Mohammad called me: a startup he knew was looking to hire a developer. He asked my opinion about the candidate they wanted to bring on, and I ended up putting together their contract for them — both the technical points they needed to account for and the clauses that belong in a software agreement.
+- B2B Industry
+# About Company
+مجموعۀ عصرآهن میراث‌دار تجربه‌ای سی‌ساله است که با اشتیاق به ایده‌های جدید، ارائه راهکارهای خلاقانه برای صنعت آهن و فولاد و در نهایت برای ایجاد یک زندگی خوب برای همه با دانش روز همراه شده است.
 
-That day I reminded them that they'd be better off having an IT consultant alongside them to guide them through this path. A development team on its own can lose its way, or lack a long-term view on the deeper things — like maintainability and the system's capacity to grow.
+این همراهی در تیم مدیریت مجموعۀ عصرآهن با به‌کارگیری افراد نخبه در جایگاه درست به‌خوبی به چشم می‌خورد.
 
-A few months later I got another call from the Asr'e Ahan team. They hadn't gotten any real output.
+فعالیت ما در صنعت آهن و فولاد از سال 1368 در حوزۀ خرید و فروش آهن آلات آغاز شد و از سال ۱۳۹۸ بخش تجارت الکترونیک، برای ارائۀ خدمات بهتر به مشتریان به فعالیت‌های مجموعه اضافه گردید.
+
+بازار اینترنتی عصرآهن، فعالیت تخصصی خود را به‌عنوان پلتفرمی آنلاین برای معرفی مقاطع فولادی، تولیدکنندگان و فروشندگان با بهره‌گیری از متخصصین نخبه و باتجربه در زمینۀ کسب‌وکارهای اینترنتی و هوشمندسازی معاملات در فروردین 1398 آغاز نموده است.
+
+در بازار اینترنتی آهن و فولادِ عصرآهن، فعالان صنعت آهن و فولاد اعم از تولیدکنندگان، توزیع‌کنندگان و مصرف‌کنندگان به صورت امن، سریع و رایگان به یکدیگر مرتبط می‌شوند؛ همچنین خریداران می‌توانند با بهره‌گیری از به‌روزترین قیمت‌ها و آخرین اخبار بازار آهن، محصولات خود را با قیمت مناسب تهیه کنند.
+
+مجموعۀ عصرآهن به‌دنبال ایجاد فضایی امن برای معاملات عادلانۀ حوزه آهن و فولاد است. ما در تلاشیم با بهره‌گیری از تجربۀ خود در این حوزه و شناخت کامل مشکلات موجود در صنعت آهن و فولاد، راهکارهایی با بهره‌گیری از دانش روز و متناسب با نیاز مشتری امروز ارائه دهیم.
+
+خدمات ما شامل ارائه قیمت روز انواع مقاطع آهنی، ارسال بار به تمام نقاط کشور، انبارداری رایگان برای مشتریان، فروش اعتباری آهن‌آلات، امکان پیش‌فروش کالا و دیگر خدمات لازم است.
+# Numbers
+- 60k visits per month
+- 63 suppliers working as partner with them
+# My Story
+- [[My Story (English)]] — full narrative, English
+- [[My Story (Farsi)]] — original Farsi version
+# Graphics
+![[Asre Ahan Logos.base]]
+# Related docs to the project
+[[Amir Consultancy Contract with Asr'e Ahan]]
+[[Sample things I invoiced Asr'e Ahan]]
+[[Developer Contract for Asr'e Ahan]]
+[[Old-Team Termination Protocol]]
+[[Developer Handbook]]
