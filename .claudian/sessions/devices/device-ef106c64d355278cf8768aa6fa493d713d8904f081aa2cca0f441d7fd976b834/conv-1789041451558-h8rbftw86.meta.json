@@ -4,7 +4,7 @@
   "title": "Create Sayman consulting contract note",
   "titleGenerationStatus": "success",
   "createdAt": 1789041451595,
-  "lastActivityAt": 1789057157739,
+  "lastActivityAt": 1789058470314,
   "sessionId": "960dfb87-eade-4844-8d21-fed30ae323bc",
   "selectedModel": "sonnet",
   "providerState": {
@@ -1338,11 +1338,11 @@
   "usage": {
     "model": "sonnet",
     "inputTokens": 2,
-    "cacheCreationInputTokens": 290,
-    "cacheReadInputTokens": 136812,
+    "cacheCreationInputTokens": 630,
+    "cacheReadInputTokens": 182789,
     "contextWindow": 1000000,
-    "contextTokens": 137104,
-    "percentage": 14,
+    "contextTokens": 183421,
+    "percentage": 18,
     "contextWindowIsAuthoritative": true
   }
 }

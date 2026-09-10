@@ -136,6 +136,20 @@
       "contentDigest": "9a365856e88a3dfcff4eb58623ff58ca2c28f2c16f38c47905b28d5ac82f4542",
       "providerUserMessageId": "c14fcd66-67cd-4850-8e26-8a1a4db0d190",
       "providerAssistantMessageId": "2b62885f-ef5d-4bc8-883a-cc3b874c51fa"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789058414519-g11wppz",
+      "userTurnOrdinal": 10,
+      "state": "accepted",
+      "localMessageId": "msg-1789058414501-qx8lk12",
+      "timestamp": 1789058414502,
+      "rawDisplayText": "from @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/SaymanDigital Story (Farsi).md make the english version",
+      "canonicalText": "from @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/SaymanDigital Story (Farsi).md make the english version",
+      "images": [],
+      "contentDigest": "c0f15a40f1a9ae577d906317e4adb15a8e4bfad58b523c6bc7fc625f44022bc3",
+      "providerUserMessageId": "a4ea5b16-7118-413c-b49f-3ad2ffbf7c24",
+      "providerAssistantMessageId": "dd9c75df-24bb-45e8-841d-798b14f15e08"
     }
   ]
 }
