@@ -1,7 +1,7 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "opus",
+  "model": "sonnet",
   "thinkingBudget": "off",
   "effortLevel": "medium",
   "serviceTier": "default",
@@ -98,9 +98,12 @@
     }
   },
   "settingsProvider": "claude",
-  "lastSelectedChatModel": null,
+  "lastSelectedChatModel": {
+    "providerId": "claude",
+    "model": "sonnet"
+  },
   "savedProviderModel": {
-    "claude": "opus"
+    "claude": "sonnet"
   },
   "savedProviderEffort": {
     "claude": "medium"

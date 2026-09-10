@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1789041451558-h8rbftw86",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789041451787-isxf0n5",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1789041451550-26uw82q",
+      "timestamp": 1789041451550,
+      "rawDisplayText": "under @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/ folder create a note from @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/قرارداد یوسفی.docx \nas my consulting contract with sayman commerce",
+      "canonicalText": "under @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/ folder create a note from @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/قرارداد یوسفی.docx \nas my consulting contract with sayman commerce",
+      "images": [],
+      "contentDigest": "05922ee2a503d33e84700b2961acfe4e768bfcd53cd5dea3eb0a4b8ed089c48b",
+      "providerUserMessageId": "c042fb4d-6892-407c-aa65-cb18da5cac67",
+      "providerAssistantMessageId": "61a24517-9e1a-459b-918a-6e9f0edadb40"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789041679842-e7agcvr",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1789041679821-xm9h9ab",
+      "timestamp": 1789041679821,
+      "rawDisplayText": "/word-paste-cleanup @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/Consulting Contract — Sayman Digital.md",
+      "canonicalText": "/word-paste-cleanup @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/Consulting Contract — Sayman Digital.md",
+      "images": [],
+      "contentDigest": "b964aac17f7e1022e02a0b7d4f7afe246b1b1105a2a0f80d323ac144539501a5",
+      "providerUserMessageId": "ad5f01be-36eb-4869-a63e-d02796c67812",
+      "providerAssistantMessageId": "1f15cb14-e688-4206-ac0e-193df24cf478"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789042374608-t986zwh",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1789042374542-qnje04q",
+      "timestamp": 1789042374542,
+      "rawDisplayText": "there is some extra new lines in this doc like here:\n(که از این پس **کارفرما** نامیده می‌شود) از یک طرف، و مشاور (که از این پس\n**مشاور** نامیده می‌شود) از طرف دیگر، بر اساس شرایط و ضوابط مشروحه زیر \n\nafter word پس\n\ncan you clean up those?",
+      "canonicalText": "there is some extra new lines in this doc like here:\n(که از این پس **کارفرما** نامیده می‌شود) از یک طرف، و مشاور (که از این پس\n**مشاور** نامیده می‌شود) از طرف دیگر، بر اساس شرایط و ضوابط مشروحه زیر \n\nafter word پس\n\ncan you clean up those?",
+      "context": {
+        "editorSelection": {
+          "notePath": "Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/Consulting Contract — Sayman Digital.md",
+          "mode": "selection",
+          "selectedText": "(که از این پس **کارفرما** نامیده می‌شود) از یک طرف، و مشاور (که از این پس\n**مشاور** نامیده می‌شود) از طرف دیگر، بر اساس شرایط و ضوابط مشروحه زیر ",
+          "lineCount": 2,
+          "startLine": 36
+        }
+      },
+      "images": [],
+      "contentDigest": "bc2407e01479723430d6a118e7e284545036bb13c9fa48b2276ca0d70726c893",
+      "providerUserMessageId": "00dd61d9-412e-4b7b-8341-d7cd81f09cc4",
+      "providerAssistantMessageId": "66555a12-4986-4b06-98d7-cb7cffd4aa7b"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789042624441-qfbpzo1",
+      "userTurnOrdinal": 4,
+      "state": "accepted",
+      "localMessageId": "msg-1789042624426-a3y0jn1",
+      "timestamp": 1789042624426,
+      "rawDisplayText": "can you update word-paste-cleanup skill to cover this matter too",
+      "canonicalText": "can you update word-paste-cleanup skill to cover this matter too",
+      "images": [],
+      "contentDigest": "936481528e0e6358f4a81937a3d7135935f6d0f8743c9238282e72ac7f32f80d",
+      "providerUserMessageId": "d2a4ebf5-bde9-4251-b503-b459c4bf03ac",
+      "providerAssistantMessageId": "e7f7716e-f2c5-4a5e-8c11-678e0503668f"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789043547925-ru56rf7",
+      "userTurnOrdinal": 5,
+      "state": "accepted",
+      "localMessageId": "msg-1789043547902-emv6spg",
+      "timestamp": 1789043547903,
+      "rawDisplayText": "add date from @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/Consulting Contract — Sayman Digital.md to the file name",
+      "canonicalText": "add date from @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/Consulting Contract — Sayman Digital.md to the file name",
+      "images": [],
+      "contentDigest": "1e791eddc2ffbe8bbb8b8904f78f9855e7affef00601c0979a1e1df3a1e9f55c",
+      "providerUserMessageId": "0f7611fa-b2f2-45d6-accb-0adc9818eadc",
+      "providerAssistantMessageId": "4a8a9aed-9d51-4a5c-bd23-4f7a6609ffd9"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789043670638-7x3bo09",
+      "userTurnOrdinal": 6,
+      "state": "accepted",
+      "localMessageId": "msg-1789043670618-bi3onoq",
+      "timestamp": 1789043670618,
+      "rawDisplayText": "no I mean the date from the text to the gregorian date",
+      "canonicalText": "no I mean the date from the text to the gregorian date",
+      "images": [],
+      "contentDigest": "e644e66a07bff473d698456ef3c6e6c98f1c4f3e4bf6c70b0260ab9f82286356",
+      "providerUserMessageId": "9471b8aa-2916-478f-b1f0-882fecb472eb",
+      "providerAssistantMessageId": "298b0750-21e2-4ffe-937a-c440a3380884"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789043823014-pcf9gu2",
+      "userTurnOrdinal": 7,
+      "state": "accepted",
+      "localMessageId": "msg-1789043822992-jt70pc2",
+      "timestamp": 1789043822992,
+      "rawDisplayText": "@Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/قرارداد - سایمان دیجیتال.docx is from my email from \n28 Oct 2015, make a note from it and /word-paste-cleanup it and date it",
+      "canonicalText": "@Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/قرارداد - سایمان دیجیتال.docx is from my email from \n28 Oct 2015, make a note from it and /word-paste-cleanup it and date it",
+      "images": [],
+      "contentDigest": "a01c9913fdbfa6d3ec832bf9a44b6469b98952558c7d8b78af555e0f6eab11e1",
+      "providerUserMessageId": "59090126-2819-4049-8bd6-07a3e051f0bb",
+      "providerAssistantMessageId": "c7864373-f68c-4b0a-a229-487110af485a"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789053104916-rusyq0l",
+      "userTurnOrdinal": 8,
+      "state": "accepted",
+      "localMessageId": "msg-1789053104893-lta1zbv",
+      "timestamp": 1789053104893,
+      "rawDisplayText": "can you connect to google drive?",
+      "canonicalText": "can you connect to google drive?",
+      "images": [],
+      "contentDigest": "52988bf521482aa3c23e08890f9f31bb60585cda4da2b4f1103acc471e82acb0",
+      "providerUserMessageId": "8294684e-10dc-4cad-a8b1-38a738cb3c29",
+      "providerAssistantMessageId": "e5dd0414-b407-4967-89fc-0c254a69fa92"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789055215313-ttjm7wy",
+      "userTurnOrdinal": 9,
+      "state": "accepted",
+      "localMessageId": "msg-1789055215287-qr2en6i",
+      "timestamp": 1789055215287,
+      "rawDisplayText": "there is folder @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/Sayman TimeLine/ It has my full messages list with then CEO Masoud Abadi, emails list(some may be off), sprint reports, docs and requirements, tasks result we get from the hiring candidates and form and questions I designed for them.\nI want every document from there that has value under @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/  folder.\nAlso a note that has the sayman timeline and works I did there.\nCreate folders wherever needed",
+      "canonicalText": "there is folder @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/Sayman TimeLine/ It has my full messages list with then CEO Masoud Abadi, emails list(some may be off), sprint reports, docs and requirements, tasks result we get from the hiring candidates and form and questions I designed for them.\nI want every document from there that has value under @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/  folder.\nAlso a note that has the sayman timeline and works I did there.\nCreate folders wherever needed",
+      "images": [],
+      "contentDigest": "9a365856e88a3dfcff4eb58623ff58ca2c28f2c16f38c47905b28d5ac82f4542",
+      "providerUserMessageId": "c14fcd66-67cd-4850-8e26-8a1a4db0d190",
+      "providerAssistantMessageId": "2b62885f-ef5d-4bc8-883a-cc3b874c51fa"
+    }
+  ]
+}

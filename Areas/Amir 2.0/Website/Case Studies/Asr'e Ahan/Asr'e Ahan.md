@@ -25,8 +25,8 @@ created: 2026-09-02
 - 60k visits per month
 - 63 suppliers working as partner with them
 # My Story
-- [[My Story (English)]] — full narrative, English
-- [[My Story (Farsi)]] — original Farsi version
+- [[Asr'e Ahan Story (English)]] — full narrative, English
+- [[Asr'e Ahan Story (Farsi)]] — original Farsi version
 # Graphics
 ![[Asre Ahan Logos.base]]
 # Related docs to the project

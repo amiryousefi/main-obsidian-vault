@@ -1,6 +1,6 @@
 ---
 name: word-paste-cleanup
-description: Clean Word/Google-Docs paste artifacts out of a Markdown note without changing a single word - trailing whitespace, stray blank lines inside lists, document-wide ** wrappers, "1. # Heading" numbered headings, broken Arabic/Persian presentation-form characters, invisible bidi junk. Use whenever the user says they pasted or copied something from Word/Docs/PDF and wants it cleaned up or formatted, or when a note visibly has these artifacts.
+description: Clean Word/Google-Docs paste artifacts out of a Markdown note without changing a single word - trailing whitespace, stray blank lines inside lists, document-wide ** wrappers, "1. # Heading" numbered headings, broken Arabic/Persian presentation-form characters, invisible bidi junk, and hard-wrapped paragraphs that should be one line each. Use whenever the user says they pasted or copied something from Word/Docs/PDF and wants it cleaned up or formatted, or when a note visibly has these artifacts.
 ---
 
 # Word paste cleanup
@@ -28,7 +28,14 @@ encoding only. If something reads wrong, report it — do not fix it.
    done
    echo "presentation forms: $(grep -oP '[\x{FB50}-\x{FDFF}\x{FE70}-\x{FEFF}]' "$f" | wc -l)"
    echo "trailing-ws lines:  $(grep -cP ' +$' "$f")"
+   # Hard wrapping: many prose lines clustered just under a fixed width.
+   awk 'length>0 && !/^[[:space:]]*[|#`]/ {print length}' "$f" \
+     | sort -n | uniq -c | tail -5
    ```
+
+   That last histogram is how you spot hard wrapping: a pile of lines at
+   72-80 characters and almost none longer means a newline was inserted at
+   every ~80 columns. One long line per paragraph means the note is fine.
 
 3. **Dry run**, then apply:
 
@@ -36,6 +43,9 @@ encoding only. If something reads wrong, report it — do not fix it.
    python3 .claude/skills/word-paste-cleanup/scripts/clean_word_paste.py --check "$f"
    python3 .claude/skills/word-paste-cleanup/scripts/clean_word_paste.py "$f"
    ```
+
+   Add `--unwrap` to rejoin hard-wrapped lines (see below) — it composes with
+   `--check`, so dry-run it the same way.
 
    The script edits in place and leaves **no `.bak` files** — the vault is a
    git repo, so `git diff` is the undo. Pass `--backup` only if you are working
@@ -65,6 +75,37 @@ encoding only. If something reads wrong, report it — do not fix it.
 | Runs of blank lines, leading/trailing blanks | collapsed |
 | `**` wrapping the whole document | removed; bolded title promoted to `# ` |
 | `1. # Heading` (Word numbered heading) | → `## 1. Heading` |
+| Hard-wrapped paragraphs and list items | rejoined into one line each — **only with `--unwrap`** |
+
+## Unwrapping hard-wrapped lines (`--unwrap`)
+
+Word, PDF extraction, and fixed-width editors put a newline every ~80
+columns. Markdown renders it as one paragraph regardless, so this is
+invisible in preview — but it makes the source miserable to edit, and it is
+especially bad for RTL text, where a mid-sentence break scrambles the visual
+order of the line in the editor.
+
+`--unwrap` joins each paragraph, list item, and blockquote body back into a
+single line. It is pure whitespace: no word moves relative to another, and
+the same word-stream check gates the write.
+
+**It is opt-in, and should stay opt-in.** A deliberately hard-wrapped note is
+a legitimate style — some people wrap at 80 so `git diff` stays line-level.
+Never assume; if the wrapping might be intentional and the user has not
+asked, show them the histogram and ask.
+
+Left intact by `--unwrap`:
+
+- YAML frontmatter, fenced code blocks (including their contents), tables,
+  headings, thematic breaks, raw HTML lines
+- the **title line of a callout** (`> [!info] ...`) — the body below it joins,
+  the title keeps its own line
+- indentation of nested list items — a sub-item folds into itself, not into
+  its parent
+
+One caveat: a Markdown hard break (two trailing spaces) does not survive,
+because trailing whitespace is stripped in an earlier step regardless. If a
+note depends on those, use `<br>` before cleaning.
 
 ## What it leaves alone, on purpose
 
@@ -74,6 +115,10 @@ encoding only. If something reads wrong, report it — do not fix it.
   spaces makes the blanks vanish when rendered. Only pass `--nbsp` if you have
   checked that none of them are doing that job.
 - Persian digits, `«»` guillemets, `……` placeholder dots — all intentional.
+  Note that Persian digits are *not* list markers either: `(ماده ۱۷) را` is
+  prose, and `--unwrap` only treats ASCII `1.` / `1)` as an ordered item,
+  matching what Markdown itself recognises.
+- **Line wrapping**, unless you pass `--unwrap`.
 
 ## Verifying
 

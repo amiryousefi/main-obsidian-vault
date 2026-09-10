@@ -8,6 +8,7 @@ Usage:
     clean_word_paste.py --check  FILE [FILE ...]
     clean_word_paste.py          FILE [FILE ...]
     clean_word_paste.py --nbsp   FILE          # also convert NBSP -> space
+    clean_word_paste.py --unwrap FILE          # also rejoin hard-wrapped lines
 """
 
 import argparse
@@ -43,7 +44,116 @@ def defold_presentation_forms(text):
     return "".join(out)
 
 
-def clean(text, convert_nbsp=False):
+# A line that opens its own block and must never be swallowed into the
+# paragraph above it.
+BLOCK_START = re.compile(
+    r"""^\s*(
+          \#{1,6}\s          # heading
+        | \|                 # table row
+        | >                  # blockquote / callout
+        | (?:```|~~~)        # code fence
+        | (?:[-*_]\s*){3,}$  # thematic break
+        | [-*+]\s            # bullet item
+        | [0-9]{1,9}[.)]\s   # ordered item (ASCII digits only - Markdown
+                             # does not treat Persian ۱۷) as a list marker)
+        | <                  # raw HTML
+        )""", re.X)
+
+FENCE = re.compile(r"^\s*(```|~~~)")
+CALLOUT_TITLE = re.compile(r"^\s*>\s*\[!")
+QUOTE_CONT = re.compile(r"^\s*>\s*(?![\s>]*$)(?!\[!)(?!#{1,6}\s)(?![-*+]\s)(?![0-9]{1,9}[.)]\s)(?!\|)")
+
+
+def unwrap(lines):
+    """Rejoin hard-wrapped lines so each paragraph or list item is one line.
+
+    Word, PDF extraction and fixed-width editors leave a newline at every
+    ~80 columns. That is invisible when rendered but makes the source
+    painful to edit, and it wrecks RTL text in an editor that soft-wraps.
+    Joining is pure whitespace: no word moves relative to another.
+
+    Left intact: frontmatter, fenced code, tables, headings, thematic
+    breaks, and the title line of a callout.
+    """
+    out, joined = [], 0
+    i, n = 0, len(lines)
+
+    # YAML frontmatter passes through untouched.
+    if lines and lines[0].strip() == "---":
+        end = next((j for j in range(1, n) if lines[j].strip() == "---"), None)
+        if end is not None:
+            out.extend(lines[:end + 1])
+            i = end + 1
+
+    buf = None          # open paragraph / list item being accumulated
+    quote = None        # open blockquote line being accumulated
+    in_fence = False
+
+    def flush():
+        nonlocal buf, quote
+        if buf is not None:
+            out.append(buf)
+            buf = None
+        if quote is not None:
+            out.append(quote)
+            quote = None
+
+    while i < n:
+        line = lines[i]
+        i += 1
+        stripped = line.strip()
+
+        if FENCE.match(line):
+            flush()
+            in_fence = not in_fence
+            out.append(line)
+            continue
+        if in_fence:
+            out.append(line)
+            continue
+
+        if not stripped:
+            flush()
+            out.append("")
+            continue
+
+        # Blockquotes and callouts: join continuation lines, but a callout
+        # title (`> [!info] ...`) always keeps its own line.
+        if stripped.startswith(">"):
+            if quote is not None and QUOTE_CONT.match(line) \
+                    and not CALLOUT_TITLE.match(line) \
+                    and not CALLOUT_TITLE.match(quote):
+                quote = quote.rstrip() + " " + re.sub(r"^\s*>\s?", "", line).strip()
+                joined += 1
+            else:
+                flush()
+                quote = line.rstrip()
+            continue
+        flush() if quote is not None else None
+
+        if BLOCK_START.match(line):
+            # Headings, tables, breaks and HTML stand alone; list items open
+            # a new buffer that their own continuation lines fold into.
+            flush()
+            if re.match(r"^\s*([-*+]\s|[0-9]{1,9}[.)]\s)", line):
+                buf = line.rstrip()
+            else:
+                out.append(line)
+            continue
+
+        if buf is None:
+            buf = line.rstrip()
+        else:
+            buf = buf.rstrip() + " " + stripped
+            joined += 1
+
+    flush()
+    if in_fence:      # unbalanced fence: too risky to have touched anything
+        return lines, 0
+    return out, joined
+
+
+def clean(text, convert_nbsp=False, do_unwrap=False):
     notes = []
 
     def note(n, msg):
@@ -100,14 +210,20 @@ def clean(text, convert_nbsp=False):
     lines = [re.sub(r"^\s*(\d+)\.\s*#{1,6}\s*(.+)$", r"## \1. \2", l) for l in lines]
     note(n, "Word numbered headings converted")
 
-    # 6. Blank-line structure: drop blanks between list items, collapse runs,
+    # 6. Hard-wrapped paragraphs -> one line each. Opt-in: a deliberately
+    #    hard-wrapped note is a legitimate style, so never assume.
+    if do_unwrap:
+        lines, n = unwrap(lines)
+        note(n, "hard-wrapped lines rejoined")
+
+    # 7. Blank-line structure: drop blanks between list items, collapse runs,
     #    trim the top and bottom of the file.
     out, dropped = [], 0
     for i, l in enumerate(lines):
         if not l.strip():
             prev = next((x for x in reversed(out) if x.strip()), "")
             nxt = next((x for x in lines[i + 1:] if x.strip()), "")
-            is_item = lambda s: bool(re.match(r"^\s*([-*+]|\d+\.)\s", s))
+            is_item = lambda s: bool(re.match(r"^\s*([-*+]|[0-9]{1,9}\.)\s", s))
             if is_item(prev) and is_item(nxt):
                 dropped += 1
                 continue
@@ -130,6 +246,9 @@ def words(text):
     t = t.replace("**", "").replace(NBSP, " ")
     t = re.sub(r"^\s*(\d+)\.\s*#+\s*", r"\1. ", t, flags=re.M)
     t = re.sub(r"^\s*#+\s*", "", t, flags=re.M)
+    # Blockquote markers are structure, not words - unwrapping a quoted
+    # paragraph drops the repeated "> " on its continuation lines.
+    t = re.sub(r"^\s*(?:>\s*)+", "", t, flags=re.M)
     return [w for w in t.split() if w]
 
 
@@ -141,6 +260,9 @@ def main():
                     help="report and diff without writing")
     ap.add_argument("--nbsp", action="store_true",
                     help="also convert non-breaking spaces to normal spaces")
+    ap.add_argument("--unwrap", action="store_true",
+                    help="also rejoin hard-wrapped lines so each paragraph "
+                         "and list item is a single line")
     ap.add_argument("--backup", action="store_true",
                     help="write a .bak copy next to the file before editing "
                          "(off by default; the vault is in git)")
@@ -154,7 +276,8 @@ def main():
             continue
 
         src = io.open(path, encoding="utf-8").read()
-        dst, notes = clean(src, convert_nbsp=args.nbsp)
+        dst, notes = clean(src, convert_nbsp=args.nbsp,
+                           do_unwrap=args.unwrap)
         name = os.path.basename(path)
 
         if src == dst:
