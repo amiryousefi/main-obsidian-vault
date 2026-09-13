@@ -1,0 +1,36 @@
+# changes we want
+- Change in design
+- Font changes
+- Add functionality to top up users account
+	- It should connect to the oxin-automation services API
+- Image to AI suggested game to play today
+- Integrated event management system
+	- CS2, FC and other type of contests
+	- Registration
+		- Teams or individuals can register per e-sport field
+		- registration could have an entrance fee
+		- registration could have multiple chance fees(like you can have 4 chances to compete in a field like FC game)
+		- registration can have open and close date(also manually be opened or closed)
+	- Attendance system
+	- Ticket sale
+- Bracket management and play-off management
+	- League mode
+	- Play-off mode
+- Lottery and draw system for events
+- Update photos
+- Update news and content
+- Reflect E-Sport team
+- Academy page
+- Work with us page(Sponsors, Providers, branches, etc.)
+- Products
+	- AI analysis of E-Sport games
+	- Venu management system
+- Services:
+	- E-Sport event holding
+	- E-Sport Academy
+	- Branch and franchises
+- Teams and clans
+	- teams can have pages under oxingame like oxingame.com/teams/TEAM_NAME
+	- Teams may have empty spots they can promote to get a new player for
+	- Per each e-sport field the number of teams and players may differ
+	- Teams can create their page, and take an screenshot of it, in order to preserve it under a page under our domain they need to pay
