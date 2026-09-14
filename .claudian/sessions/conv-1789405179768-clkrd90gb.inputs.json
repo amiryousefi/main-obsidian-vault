@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1789405179768-clkrd90gb",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789405179843-yydxznm",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1789405179754-uqu7ajw",
+      "timestamp": 1789405179754,
+      "rawDisplayText": "in @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/ folder I have a @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/Raw_Data/ which contains my emails about this project and also my chat with the CEO/client I had. and report files, etc. about the project.\n\nread the @Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Asr'e Ahan Story (English).md and @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/SaymanDigital Story (English).md\n\nBased on those and other files in the folder write the story in farsi and english.\none point that may be missing from all these files is the crypto and web3 features, this repo have our contracts git@github.com:TodaysCrypto/Contracts.git you can have a check on that and include that in the project specifications.",
+      "canonicalText": "in @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/ folder I have a @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/Raw_Data/ which contains my emails about this project and also my chat with the CEO/client I had. and report files, etc. about the project.\n\nread the @Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Asr'e Ahan Story (English).md and @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/SaymanDigital Story (English).md\n\nBased on those and other files in the folder write the story in farsi and english.\none point that may be missing from all these files is the crypto and web3 features, this repo have our contracts git@github.com:TodaysCrypto/Contracts.git you can have a check on that and include that in the project specifications.",
+      "context": {
+        "linkedContent": {
+          "path": "Areas/Amir 2.0/Website/Case Studies/Todays Crypto/Today's Crypto Story (Farsi).md"
+        }
+      },
+      "images": [],
+      "contentDigest": "bff3a275046f36d8caf039c16b56ef1579a164b52922a2205d25b6ab6f366b80",
+      "providerUserMessageId": "6a8eacf9-8315-4868-86e6-54ba5a08e1a1"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789405306809-9eafyut",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1789405306767-i1630dq",
+      "timestamp": 1789405306768,
+      "rawDisplayText": "in @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/ folder I have a @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/Raw_Data/ which contains my emails about this project and also my chat with the CEO/client I had. and report files, etc. about the project.\n\nread the @Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Asr'e Ahan Story (English).md and @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/SaymanDigital Story (English).md\n\nBased on those and other files in the folder write the story in farsi and english.\none point that may be missing from all these files is the crypto and web3 features, this repo have our contracts git@github.com:TodaysCrypto/Contracts.git you can have a check on that and include that in the project specifications.",
+      "canonicalText": "in @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/ folder I have a @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/Raw_Data/ which contains my emails about this project and also my chat with the CEO/client I had. and report files, etc. about the project.\n\nread the @Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Asr'e Ahan Story (English).md and @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/SaymanDigital Story (English).md\n\nBased on those and other files in the folder write the story in farsi and english.\none point that may be missing from all these files is the crypto and web3 features, this repo have our contracts git@github.com:TodaysCrypto/Contracts.git you can have a check on that and include that in the project specifications.",
+      "images": [],
+      "contentDigest": "bff3a275046f36d8caf039c16b56ef1579a164b52922a2205d25b6ab6f366b80",
+      "providerUserMessageId": "eebe4efb-9dda-4b00-b367-c8ffa3d61669"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789405737010-tdsxv92",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1789405736970-1tdlira",
+      "timestamp": 1789405736970,
+      "rawDisplayText": "in @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/ folder I have a @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/Raw_Data/ which contains my emails about this project and also my chat with the CEO/client I had. and report files, etc. about the project.\n\nread the @Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Asr'e Ahan Story (English).md and @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/SaymanDigital Story (English).md\n\nBased on those and other files in the folder write the story in farsi and english.\none point that may be missing from all these files is the crypto and web3 features, this repo have our contracts git@github.com:TodaysCrypto/Contracts.git you can have a check on that and include that in the project specifications.",
+      "canonicalText": "in @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/ folder I have a @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/Raw_Data/ which contains my emails about this project and also my chat with the CEO/client I had. and report files, etc. about the project.\n\nread the @Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Asr'e Ahan Story (English).md and @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/SaymanDigital Story (English).md\n\nBased on those and other files in the folder write the story in farsi and english.\none point that may be missing from all these files is the crypto and web3 features, this repo have our contracts git@github.com:TodaysCrypto/Contracts.git you can have a check on that and include that in the project specifications.",
+      "images": [],
+      "contentDigest": "bff3a275046f36d8caf039c16b56ef1579a164b52922a2205d25b6ab6f366b80",
+      "providerUserMessageId": "5490572e-0908-4ba3-aecf-45d160f5950b"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789406000077-f2mxttu",
+      "userTurnOrdinal": 4,
+      "state": "accepted",
+      "localMessageId": "msg-1789405999924-mtslqc7",
+      "timestamp": 1789405999924,
+      "rawDisplayText": "in @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/ folder I have a @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/Raw_Data/ which contains my emails about this project and also my chat with the CEO/client I had. and report files, etc. about the project.\n\nread the @Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Asr'e Ahan Story (English).md and @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/SaymanDigital Story (English).md\n\nBased on those and other files in the folder write the story in farsi and english.\none point that may be missing from all these files is the crypto and web3 features, this repo have our contracts git@github.com:TodaysCrypto/Contracts.git you can have a check on that and include that in the project specifications.",
+      "canonicalText": "in @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/ folder I have a @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/Raw_Data/ which contains my emails about this project and also my chat with the CEO/client I had. and report files, etc. about the project.\n\nread the @Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Asr'e Ahan Story (English).md and @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/SaymanDigital Story (English).md\n\nBased on those and other files in the folder write the story in farsi and english.\none point that may be missing from all these files is the crypto and web3 features, this repo have our contracts git@github.com:TodaysCrypto/Contracts.git you can have a check on that and include that in the project specifications.",
+      "images": [],
+      "contentDigest": "bff3a275046f36d8caf039c16b56ef1579a164b52922a2205d25b6ab6f366b80",
+      "providerUserMessageId": "b003cd51-0469-46fa-95a4-077dcf7504d1",
+      "providerAssistantMessageId": "3b05b1eb-a452-41b4-ad49-e0ef2348cf7e"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789407230329-fzbrdp3",
+      "userTurnOrdinal": 5,
+      "state": "accepted",
+      "localMessageId": "msg-1789407230306-ei2a2t8",
+      "timestamp": 1789407230306,
+      "rawDisplayText": "can you create a full platform feature report with the data you get.",
+      "canonicalText": "can you create a full platform feature report with the data you get.",
+      "images": [],
+      "contentDigest": "fc60f5f098220e3bdfb5f745ba4844e9dd0ddee528854d9107268424ff0a9cae",
+      "providerUserMessageId": "b02184bd-51af-42bb-8ea5-c1cb7647f5dc",
+      "providerAssistantMessageId": "ba0efa7e-a614-43a3-92d0-13f746254580"
+    }
+  ]
+}

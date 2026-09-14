@@ -256,6 +256,32 @@
       "contentDigest": "cc51440dc735d582d11bd9aff24e616364e084c2af477e009f4573008b709a4d",
       "providerUserMessageId": "eba19889-d503-4430-a839-2e3016379d1d",
       "providerAssistantMessageId": "63dd7b92-b388-46a7-98cd-7c7a58514341"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789404860379-7jcxqwa",
+      "userTurnOrdinal": 18,
+      "state": "accepted",
+      "localMessageId": "msg-1789404860333-wns0s2k",
+      "timestamp": 1789404860333,
+      "rawDisplayText": "in @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/ folder I have a @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/Raw_Data/ which contains my emails about this project and also my chat with the CEO/client I had. and report files, etc. about the project.\n\nread the @Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Asr'e Ahan Story (English).md and @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/SaymanDigital Story (English).md \n\nBased on those and other files in the folder write the story in farsi and english.\none point that may be missing from all these files is the crypto and web3 features, this repo have our contracts git@github.com:TodaysCrypto/Contracts.git you can have a check on that and include that in the project specifications.",
+      "canonicalText": "in @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/ folder I have a @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/Raw_Data/ which contains my emails about this project and also my chat with the CEO/client I had. and report files, etc. about the project.\n\nread the @Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Asr'e Ahan Story (English).md and @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/SaymanDigital Story (English).md \n\nBased on those and other files in the folder write the story in farsi and english.\none point that may be missing from all these files is the crypto and web3 features, this repo have our contracts git@github.com:TodaysCrypto/Contracts.git you can have a check on that and include that in the project specifications.",
+      "images": [],
+      "contentDigest": "97688e342ed89e4d44b5744629d0ebffb6935079f032c63039851fe72f4d9e12",
+      "providerUserMessageId": "cd250800-e017-451a-a17a-cd9189de5d43"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789405156950-nqqyma3",
+      "userTurnOrdinal": 19,
+      "state": "accepted",
+      "localMessageId": "msg-1789405156929-opsgv5y",
+      "timestamp": 1789405156929,
+      "rawDisplayText": "in @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/ folder I have a @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/Raw_Data/ which contains my emails about this project and also my chat with the CEO/client I had. and report files, etc. about the project.\n\nread the @Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Asr'e Ahan Story (English).md and @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/SaymanDigital Story (English).md\n\nBased on those and other files in the folder write the story in farsi and english.\none point that may be missing from all these files is the crypto and web3 features, this repo have our contracts git@github.com:TodaysCrypto/Contracts.git you can have a check on that and include that in the project specifications.",
+      "canonicalText": "in @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/ folder I have a @Areas/Amir 2.0/Website/Case Studies/Todays Crypto/Raw_Data/ which contains my emails about this project and also my chat with the CEO/client I had. and report files, etc. about the project.\n\nread the @Areas/Amir 2.0/Website/Case Studies/Asr'e Ahan/Asr'e Ahan Story (English).md and @Areas/Amir 2.0/Website/Case Studies/Sayman E-Commerce/SaymanDigital Story (English).md\n\nBased on those and other files in the folder write the story in farsi and english.\none point that may be missing from all these files is the crypto and web3 features, this repo have our contracts git@github.com:TodaysCrypto/Contracts.git you can have a check on that and include that in the project specifications.",
+      "images": [],
+      "contentDigest": "bff3a275046f36d8caf039c16b56ef1579a164b52922a2205d25b6ab6f366b80",
+      "providerUserMessageId": "9b69f9df-03bb-43af-93ff-e3d7a6a78542"
     }
   ]
 }
