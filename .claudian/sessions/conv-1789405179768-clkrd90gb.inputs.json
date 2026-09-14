@@ -73,6 +73,20 @@
       "contentDigest": "fc60f5f098220e3bdfb5f745ba4844e9dd0ddee528854d9107268424ff0a9cae",
       "providerUserMessageId": "b02184bd-51af-42bb-8ea5-c1cb7647f5dc",
       "providerAssistantMessageId": "ba0efa7e-a614-43a3-92d0-13f746254580"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789408180537-l7op5p7",
+      "userTurnOrdinal": 6,
+      "state": "accepted",
+      "localMessageId": "msg-1789408180512-z295umg",
+      "timestamp": 1789408180512,
+      "rawDisplayText": "as the main folder /Users/amir/Projects/Obsidian-Vaults/Amir-Obsidian is a git repo and I delted the raw_data folder inside todays crypto can you clean that mess up from git repo too?",
+      "canonicalText": "as the main folder /Users/amir/Projects/Obsidian-Vaults/Amir-Obsidian is a git repo and I delted the raw_data folder inside todays crypto can you clean that mess up from git repo too?",
+      "images": [],
+      "contentDigest": "98199032c9dc45476b3c99c73b6c925fdde7b80c804be1131e88674c8657239b",
+      "providerUserMessageId": "e120ca8a-b133-4121-97dd-a78d6e140f0f",
+      "providerAssistantMessageId": "c9ac6aac-4f63-41f7-9385-18ec0ceae267"
     }
   ]
 }

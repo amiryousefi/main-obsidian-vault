@@ -4,7 +4,7 @@
   "title": "in @Areas/Amir 2",
   "titleGenerationStatus": "failed",
   "createdAt": 1789405179784,
-  "lastActivityAt": 1789407698617,
+  "lastActivityAt": 1789408420591,
   "sessionId": "85b3d5da-34cb-4a17-b55a-125ca8855e8c",
   "selectedModel": "opus",
   "providerState": {
@@ -14,11 +14,11 @@
   "usage": {
     "model": "opus",
     "inputTokens": 2,
-    "cacheCreationInputTokens": 531,
-    "cacheReadInputTokens": 386995,
+    "cacheCreationInputTokens": 404,
+    "cacheReadInputTokens": 394931,
     "contextWindow": 1000000,
-    "contextTokens": 387528,
-    "percentage": 39,
+    "contextTokens": 395337,
+    "percentage": 40,
     "contextWindowIsAuthoritative": true
   }
 }
