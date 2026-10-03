@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1790496755488-0azbora26",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790496755903-egjghea",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1790496755476-5sc2z04",
+      "timestamp": 1790496755476,
+      "rawDisplayText": "Can you rewirte this cover letter with my suggestions on it.\n\nAdd a section to same note at the end as final",
+      "canonicalText": "Can you rewirte this cover letter with my suggestions on it.\n\nAdd a section to same note at the end as final",
+      "context": {
+        "linkedContent": {
+          "path": "Yalda Cover letter for Evotym.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "6af556035aca9f18769cbdfc5e96110648c6b125c2a1f213ef293775b1b676a0",
+      "providerUserMessageId": "d195d4cc-3e05-4c10-bccd-cd089e93e1a5"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790496975010-ji6dlqs",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1790496974994-ybm2uzo",
+      "timestamp": 1790496974994,
+      "rawDisplayText": "Can you rewirte this cover letter with my suggestions on it.\n\nAdd a section to same note at the end as final",
+      "canonicalText": "Can you rewirte this cover letter with my suggestions on it.\n\nAdd a section to same note at the end as final",
+      "images": [],
+      "contentDigest": "6af556035aca9f18769cbdfc5e96110648c6b125c2a1f213ef293775b1b676a0",
+      "providerUserMessageId": "6aad3c9a-be57-460b-8c0b-01090e5f7196",
+      "providerAssistantMessageId": "a246ba8b-c3ca-4f25-b82c-25773ace9f17"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790497074154-8nb0omr",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1790497074142-kh1jqro",
+      "timestamp": 1790497074142,
+      "rawDisplayText": "take my suggestions again",
+      "canonicalText": "take my suggestions again",
+      "images": [],
+      "contentDigest": "f26ff1b6edac45633c08b1b660765ec015150874b3b6a903b7ff469d59e26b34",
+      "providerUserMessageId": "3fa46781-149f-4e9a-b443-007248ad0ced",
+      "providerAssistantMessageId": "48cf980a-1e47-4b4d-b192-93837b3dcb7c"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790497158260-sgkmse3",
+      "userTurnOrdinal": 4,
+      "state": "accepted",
+      "localMessageId": "msg-1790497158199-3s2q9ym",
+      "timestamp": 1790497158199,
+      "rawDisplayText": "can you take a look to their website and have a bit more suggestions based on the current final, add it as final with website considerations.",
+      "canonicalText": "can you take a look to their website and have a bit more suggestions based on the current final, add it as final with website considerations.",
+      "images": [],
+      "contentDigest": "de8fc961f59ebf7a7a801479db8b98778a562534caa39d65d8c4020e08d5b386",
+      "providerUserMessageId": "1815dc8a-ccdf-4c78-9d52-eb09ee5aee51",
+      "providerAssistantMessageId": "79b5ed79-3676-4ab2-a7d1-9db8847b6b92"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790497727243-wvx64kp",
+      "userTurnOrdinal": 5,
+      "state": "accepted",
+      "localMessageId": "msg-1790497727223-juxkoo4",
+      "timestamp": 1790497727223,
+      "rawDisplayText": "edit the final section now with the crypto and fintech",
+      "canonicalText": "edit the final section now with the crypto and fintech",
+      "images": [],
+      "contentDigest": "d1b5767062fe566996d646b855e2dcaa092f185c337547b0021c47a19f8f8b18",
+      "providerUserMessageId": "9b292d2f-8b7e-459f-9601-346e7c1c8522",
+      "providerAssistantMessageId": "ccd899fc-8152-4249-a0e4-9d75586de930"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790498035462-w7e9177",
+      "userTurnOrdinal": 6,
+      "state": "accepted",
+      "localMessageId": "msg-1790498035444-nqp9i8w",
+      "timestamp": 1790498035444,
+      "rawDisplayText": "update the inital with just the suggestions, no negative part in cover letter and make it more focused on fintech and crypto",
+      "canonicalText": "update the inital with just the suggestions, no negative part in cover letter and make it more focused on fintech and crypto",
+      "images": [],
+      "contentDigest": "a5908640e44308c010da86ef6f20d86169ba3fadd59a04b2fa502077c650c873",
+      "providerUserMessageId": "e9535f2a-ba71-4a2e-85d8-22dcc44c938d",
+      "providerAssistantMessageId": "11e026be-f1a1-4c0d-971f-464f73600c71"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790498282919-ycte290",
+      "userTurnOrdinal": 7,
+      "state": "accepted",
+      "localMessageId": "msg-1790498282906-oo7cmms",
+      "timestamp": 1790498282906,
+      "rawDisplayText": "can you humanize it more in a new section final-humanized",
+      "canonicalText": "can you humanize it more in a new section final-humanized",
+      "images": [],
+      "contentDigest": "051ba639643ea9eebd9959162165621cbe6643cb0d677411786f6e6fc812123a",
+      "providerUserMessageId": "4c423c5c-b80a-4760-956e-0dfbe8cd7831",
+      "providerAssistantMessageId": "afebe5e5-78f2-4753-adba-025c38fdb083"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790498650303-bqcl2wh",
+      "userTurnOrdinal": 8,
+      "state": "accepted",
+      "localMessageId": "msg-1790498650282-n6ofaud",
+      "timestamp": 1790498650282,
+      "rawDisplayText": "the result seem confusing and too much informal. can we get into something in between? and no em dashes at all.",
+      "canonicalText": "the result seem confusing and too much informal. can we get into something in between? and no em dashes at all.",
+      "images": [],
+      "contentDigest": "c16d40813c4174e73360a6c8aaaa7f4ef68bdf8ee5bfc4a6b1b68f93db8e5d81",
+      "providerUserMessageId": "fc247b37-54da-4ae3-a5c0-4fe6fd447561",
+      "providerAssistantMessageId": "8f618d73-259b-4408-8c8e-e7df1c29a598"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790500989712-itc7had",
+      "userTurnOrdinal": 9,
+      "state": "accepted",
+      "localMessageId": "msg-1790500989689-l3q3e5b",
+      "timestamp": 1790500989690,
+      "rawDisplayText": "what would be a salary to ask in the applicationf form based on their site and other titles?",
+      "canonicalText": "what would be a salary to ask in the applicationf form based on their site and other titles?",
+      "context": {
+        "editorSelection": {
+          "notePath": "Yalda Cover letter for Evotym.md",
+          "mode": "selection",
+          "selectedText": "Dear Evotym team,\n\nI’ve spent most of my career in fintech and crypto, and I’m writing to introduce myself rather than to apply for one specific role.\n\nI began in content and communication, then moved into UX writing, UX research, and eventually product management. The industry stayed the same throughout, but each role gave me a different view of it. Most recently I worked as an Associate Product Manager on an AI-powered product, collaborating closely with engineers and running user research to turn complex technical capabilities into something people could genuinely use.\n\nThat range was deliberate rather than accidental. Writing the words a user reads taught me how much clarity matters in financial products, research taught me how differently people behave from the way we assume they will, and product management taught me what a business needs a product to achieve. Having worked in all three, I tend to see problems that are easy to miss from any one of them alone.\n\nI’m drawn to technology while it’s still taking shape. That is what brought me to crypto, and more recently to AI. I started working with AI early, not only to help build products but also within the user and UX research. That intersection is still where I find the most interesting problems.\n\nWhat I’m looking for now is a place where that mix is genuinely useful and where I can keep learning. I don’t have a fixed job title in mind, which is exactly why I’d rather introduce myself and hear where you think I might fit.\n\nMy CV is attached, and if my background is of interest, I would be glad to have a conversation.\n\nBest,\n\nYalda",
+          "lineCount": 17,
+          "startLine": 114
+        }
+      },
+      "images": [],
+      "contentDigest": "c1a591e162bba0b25443d7ac68fe1c31c1e0939172b9c70d40375eb4a58fb3fd",
+      "providerUserMessageId": "875f8bf7-d191-4961-95a4-b77626e875ee",
+      "providerAssistantMessageId": "ec5cb76a-29ee-4c46-a665-46c883b4bb30"
+    }
+  ]
+}

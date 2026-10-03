@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1790895152101-61anm6ox4",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790895152272-ac8rhyo",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1790895152086-7vjjgth",
+      "timestamp": 1790895152086,
+      "rawDisplayText": "give me a draft idea",
+      "canonicalText": "give me a draft idea",
+      "context": {
+        "linkedContent": {
+          "path": "Areas/Amir 2.0/Website/Case Studies/Oxin Game/Oxin Game Story (Farsi).md"
+        }
+      },
+      "images": [],
+      "contentDigest": "ea830dd6d775e72a8b2252dc7934ca7704f58c56e9e4226af90438ef142df592",
+      "providerUserMessageId": "40462109-5c6a-48cb-b285-a522c2ca17e0"
+    }
+  ]
+}
