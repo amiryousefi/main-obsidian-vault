@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1791280227678-6zjd2r90c",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1791280227755-n2wsmjv",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1791280227623-ltq8t9c",
+      "timestamp": 1791280227623,
+      "rawDisplayText": "can you read this?",
+      "canonicalText": "can you read this?",
+      "context": {
+        "currentNote": {
+          "path": "Areas/Amir 2.0/Website/Case Studies/Oxin Game/Oxin Game Story (Farsi).md"
+        },
+        "contextFiles": [
+          "Areas/Amir 2.0/Website/Case Studies/Oxin Game/Oxin Game Story (Farsi).md"
+        ]
+      },
+      "images": [],
+      "contentDigest": "0bfa53d672def1aec1a4f938ba6a91326c936e97ca5a0549e781092e68098b09",
+      "providerUserMessageId": "c0150a0f-4d04-4339-a4a5-1a2ba155d3ee",
+      "providerAssistantMessageId": "f445d643-1675-4abc-9d71-ce40ff291701-assistant-28"
+    }
+  ]
+}

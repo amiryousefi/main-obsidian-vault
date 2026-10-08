@@ -1,8 +1,8 @@
 {
   "userName": "",
-  "permissionMode": "yolo",
-  "model": "haiku",
-  "thinkingBudget": "off",
+  "permissionMode": "normal",
+  "model": "cursor:default[]",
+  "thinkingBudget": "default",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -11,6 +11,8 @@
   "excludedTags": [],
   "mediaFolder": "",
   "systemPrompt": "",
+  "useClaudianSystemPrompt": true,
+  "persistentExternalContextPaths": [],
   "sharedEnvironmentVariables": "",
   "envSnippets": [],
   "customContextLimits": {},
@@ -24,7 +26,7 @@
   "locale": "en",
   "providerConfigs": {
     "claude": {
-      "enabled": true,
+      "enabled": false,
       "safeMode": "auto",
       "cliPath": "",
       "cliPathsByHost": {
@@ -32,13 +34,18 @@
       },
       "loadUserSettings": true,
       "enableChrome": false,
+      "enableBangBash": false,
+      "promptSuggestions": false,
+      "agentProgressSummaries": false,
+      "visibleModels": null,
       "customModels": "",
+      "discoveredModels": [],
       "defaultModel": "opus",
       "lastModel": "haiku",
       "modelEnvironmentType": "haiku",
       "titleModelEnvironmentType": "",
       "environmentVariables": "",
-      "environmentHash": "runtime-input:v1:a56a4c5578c68a2c6eed468882a66e9738919b89adb03affa66fa743c6c9f805"
+      "environmentHash": "runtime-input:v1:e3a3492dd19704352b6e2501d1a2b99adce7d5f569db6949d679b1043fb89aa1"
     },
     "codex": {
       "enabled": false,
@@ -66,12 +73,16 @@
       "environmentHash": "",
       "environmentVariables": "",
       "modelAliases": {},
+      "planBasePermissionMode": "normal",
       "preferredReasoningByModel": {},
       "visibleModels": null
     },
     "opencode": {
+      "availableModes": [],
+      "catalogTimestamp": 0,
       "cliPath": "",
       "cliPathsByHost": {},
+      "discoveredModels": [],
       "enabled": false,
       "environmentHash": "",
       "environmentVariables": "OPENCODE_ENABLE_EXA=1",
@@ -92,40 +103,250 @@
       "preferredThinkingByModel": {},
       "toolMode": "all",
       "visibleModels": []
+    },
+    "cursor": {
+      "cliPath": "/Users/amir/.local/bin/agent",
+      "cliPathsByHost": {
+        "device-ef106c64d355278cf8768aa6fa493d713d8904f081aa2cca0f441d7fd976b834": "/Users/amir/.local/bin/agent"
+      },
+      "enabled": true,
+      "environmentHash": "",
+      "environmentVariables": "runtime-input:v1:e3a3492dd19704352b6e2501d1a2b99adce7d5f569db6949d679b1043fb89aa1",
+      "discoveredModels": [
+        {
+          "label": "Auto",
+          "rawId": "default[]"
+        },
+        {
+          "label": "grok-4.7",
+          "rawId": "grok-4.7[context=256k,reasoning_effort=high,fast=true]"
+        },
+        {
+          "label": "grok-4.6",
+          "rawId": "grok-4.6[effort=high,fast=true]"
+        },
+        {
+          "label": "composer-2.5",
+          "rawId": "composer-2.5[fast=true]"
+        },
+        {
+          "label": "claude-opus-5-5",
+          "rawId": "claude-opus-5-5[context=300k,effort=medium,fast=false]"
+        },
+        {
+          "label": "claude-opus-5",
+          "rawId": "claude-opus-5[thinking=true,context=300k,effort=high,fast=false]"
+        },
+        {
+          "label": "claude-opus-4-8",
+          "rawId": "claude-opus-4-8[thinking=true,context=300k,effort=high,fast=false]"
+        },
+        {
+          "label": "gpt-5.6-sol",
+          "rawId": "gpt-5.6-sol[context=272k,reasoning=medium,fast=false]"
+        },
+        {
+          "label": "gpt-5.5",
+          "rawId": "gpt-5.5[context=272k,reasoning=medium,fast=false]"
+        },
+        {
+          "label": "claude-fable-5-1",
+          "rawId": "claude-fable-5-1[thinking=true,context=300k,effort=high]"
+        },
+        {
+          "label": "claude-fable-5",
+          "rawId": "claude-fable-5[thinking=true,context=300k,effort=high]"
+        },
+        {
+          "label": "grok-4.5",
+          "rawId": "grok-4.5[effort=high,fast=true]"
+        },
+        {
+          "label": "gemini-3.8-flash",
+          "rawId": "gemini-3.8-flash[reasoning_effort=high]"
+        },
+        {
+          "label": "gemini-3.7-flash",
+          "rawId": "gemini-3.7-flash[effort=high]"
+        },
+        {
+          "label": "muse-spark-1.3",
+          "rawId": "muse-spark-1.3[context=300k,effort=high]"
+        },
+        {
+          "label": "gpt-5.6-terra",
+          "rawId": "gpt-5.6-terra[context=272k,reasoning=medium,fast=false]"
+        },
+        {
+          "label": "claude-sonnet-5-5",
+          "rawId": "claude-sonnet-5-5[context=300k,reasoning_effort=high]"
+        },
+        {
+          "label": "claude-sonnet-5",
+          "rawId": "claude-sonnet-5[thinking=true,context=300k,effort=high]"
+        },
+        {
+          "label": "claude-sonnet-4-6",
+          "rawId": "claude-sonnet-4-6[thinking=true,context=200k,effort=medium]"
+        },
+        {
+          "label": "gpt-5.3-codex",
+          "rawId": "gpt-5.3-codex[reasoning=medium,fast=false]"
+        },
+        {
+          "label": "claude-opus-4-7",
+          "rawId": "claude-opus-4-7[thinking=true,context=300k,effort=xhigh,fast=false]"
+        },
+        {
+          "label": "gpt-5.4",
+          "rawId": "gpt-5.4[context=272k,reasoning=medium,fast=false]"
+        },
+        {
+          "label": "claude-opus-4-6",
+          "rawId": "claude-opus-4-6[thinking=true,context=200k,effort=high]"
+        },
+        {
+          "label": "claude-opus-4-5",
+          "rawId": "claude-opus-4-5[thinking=true]"
+        },
+        {
+          "label": "gpt-5.2",
+          "rawId": "gpt-5.2[reasoning=medium,fast=false]"
+        },
+        {
+          "label": "gpt-5.6-luna",
+          "rawId": "gpt-5.6-luna[context=272k,reasoning=medium,fast=false]"
+        },
+        {
+          "label": "gemini-3.6-flash",
+          "rawId": "gemini-3.6-flash[effort=high]"
+        },
+        {
+          "label": "gemini-3.1-pro",
+          "rawId": "gemini-3.1-pro[]"
+        },
+        {
+          "label": "gpt-5.4-mini",
+          "rawId": "gpt-5.4-mini[reasoning=medium]"
+        },
+        {
+          "label": "gpt-5.4-nano",
+          "rawId": "gpt-5.4-nano[reasoning=medium]"
+        },
+        {
+          "label": "claude-haiku-4-5",
+          "rawId": "claude-haiku-4-5[thinking=true]"
+        },
+        {
+          "label": "claude-sonnet-4-5",
+          "rawId": "claude-sonnet-4-5[thinking=true,context=200k]"
+        },
+        {
+          "label": "gpt-5.1",
+          "rawId": "gpt-5.1[reasoning=medium]"
+        },
+        {
+          "label": "gemini-3-flash",
+          "rawId": "gemini-3-flash[]"
+        },
+        {
+          "label": "gemini-3.5-flash",
+          "rawId": "gemini-3.5-flash[]"
+        },
+        {
+          "label": "claude-sonnet-4",
+          "rawId": "claude-sonnet-4[thinking=false,context=200k]"
+        },
+        {
+          "label": "gpt-5-mini",
+          "rawId": "gpt-5-mini[]"
+        },
+        {
+          "label": "gemini-2.5-flash",
+          "rawId": "gemini-2.5-flash[]"
+        },
+        {
+          "label": "kimi-k3",
+          "rawId": "kimi-k3[reasoning=max]"
+        },
+        {
+          "label": "kimi-k2.7-code",
+          "rawId": "kimi-k2.7-code[]"
+        },
+        {
+          "label": "glm-5.2",
+          "rawId": "glm-5.2[reasoning=high]"
+        },
+        {
+          "label": "glm-5p3",
+          "rawId": "glm-5p3[reasoning=high]"
+        },
+        {
+          "label": "glm-5p3-flash",
+          "rawId": "glm-5p3-flash[reasoning=high]"
+        }
+      ],
+      "catalogTimestamp": 1791279477172,
+      "visibleModels": [
+        "default[]",
+        "composer-2.5[fast=true]",
+        "claude-fable-5-1[thinking=true,context=300k,effort=high]",
+        "claude-sonnet-5-5[context=300k,reasoning_effort=high]",
+        "grok-4.7[context=256k,reasoning_effort=high,fast=true]",
+        "gpt-5.4[context=272k,reasoning=medium,fast=false]",
+        "claude-opus-5-5[context=300k,effort=medium,fast=false]"
+      ]
+    },
+    "omp": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "thinking": null,
+      "discoveredModels": [],
+      "catalogTimestamp": 0,
+      "visibleModels": []
     }
   },
-  "settingsProvider": "claude",
+  "providerAdditionalArguments": {},
+  "settingsProvider": "cursor",
   "lastSelectedChatModel": {
     "providerId": "claude",
-    "model": "opus"
+    "model": "sonnet"
   },
   "savedProviderModel": {
-    "claude": "haiku"
+    "claude": "haiku",
+    "cursor": "cursor:default[]"
   },
   "savedProviderEffort": {
-    "claude": "high"
+    "claude": "high",
+    "cursor": "high"
   },
   "savedProviderServiceTier": {},
-  "savedProviderThinkingBudget": {},
+  "savedProviderThinkingBudget": {
+    "cursor": "default"
+  },
   "savedProviderPermissionMode": {
-    "claude": "yolo"
+    "claude": "normal",
+    "cursor": "normal"
   },
   "pendingProviderSessionInvalidations": {},
   "lastCustomModel": "",
   "maxWarmAgentProcesses": 5,
+  "providerDiagnosticLogsEnabled": false,
+  "providerDiagnosticLogDirectory": "",
   "enableAutoScroll": true,
-  "showMessageTimestamps": false,
+  "showTabTitlesByDefault": true,
   "deferMathRenderingDuringStreaming": true,
   "expandFileEditsByDefault": false,
   "chatViewPlacement": "right-sidebar",
-  "enableDualPane": true,
-  "dualPaneSide": "right",
+  "sessionAutoArchiveAfter": "off",
+  "hiddenProviderCommands": {},
+  "showMessageTimestamps": false,
   "restoreTabsOnStartup": true,
   "collabEnabled": false,
   "collabProjectsFolder": "workspace",
   "collabGitPath": "",
-  "sessionManagerOrganization": "list",
-  "sessionManagerSort": "last-updated",
-  "pinnedLinkedContentPaths": [],
-  "hiddenProviderCommands": {}
+  "pinnedLinkedContentPaths": []
 }

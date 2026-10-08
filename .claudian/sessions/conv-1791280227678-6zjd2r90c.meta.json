@@ -1,0 +1,21 @@
+{
+  "id": "conv-1791280227678-6zjd2r90c",
+  "providerId": "cursor",
+  "title": "Can You Read This",
+  "titleGenerationStatus": "success",
+  "createdAt": 1791280227690,
+  "lastActivityAt": 1791280274865,
+  "sessionId": "f445d643-1675-4abc-9d71-ce40ff291701",
+  "selectedModel": "cursor:default[]",
+  "currentNote": "Areas/Amir 2.0/Website/Case Studies/Oxin Game/Oxin Game Story (Farsi).md",
+  "usage": {
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextTokens": 0,
+    "contextWindow": 200000,
+    "contextWindowIsAuthoritative": false,
+    "inputTokens": 0,
+    "model": "default[]",
+    "percentage": 0
+  }
+}
