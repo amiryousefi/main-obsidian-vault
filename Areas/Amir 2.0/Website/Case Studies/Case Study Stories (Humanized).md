@@ -3,7 +3,7 @@ created: 2026-10-24
 ---
 # Case Study Stories (English, Humanized)
 
-All three English stories in one note, edited for plain wording before they go on amiryousefi.com. Each one keeps the facts, numbers and structure of its original. The changes and the facts to check are in [[Story Humanization Review]].
+All three English stories in one note, edited for plain wording before they go on amiryousefi.com. This version includes the second edit with Amir's decisions (Oct 24, 2026). The changes and the facts to check are in [[Story Humanization Review]].
 
 Originals: [[Today's Crypto Story (English)]] · [[SaymanDigital Story (English)]] · [[Asr'e Ahan Story (English)]]
 
@@ -26,9 +26,7 @@ Part of [[Todays Crypto Case Study]]. English version of [[Today's Crypto Story 
 > - **Team:** four core engineers (me, frontend, backend, panels), later joined by a smart-contract engineer and a UI developer. On the client side: the founder/CEO, a QA and product owner, and a partnerships lead
 > - **What we built:** a three-part platform (Next.js viewer app, React publisher and admin panel, Laravel API), a Python YouTube importer, a Node.js blockchain integration service, and the TCG token contracts on Polygon
 > - **Web3 layer:** wallet login, the TCG ERC-20 governance token (5 billion fixed supply), watch-to-earn rewards with on-chain claims, vesting wallets, NFT-based HODL memberships, and crypto payments
-> - **Milestones:** closed beta on 9 May 2021 · public publisher launch August-September 2022 · desktop launch December 2022 · TCG live on Polygon mid-2023 · first community airdrop in November 2023, with **2,000+ signups on day one** and **~10,800 unique visitors a day**
->
-> For the short, site-ready version see [[TodaysCrypto — Website Case Study]]. For the full feature inventory see [[Platform Feature Report]].
+> - **Milestones:** closed beta on 9 May 2021 · public publisher launch August-September 2022 · desktop launch December 2022 · TCG live on Polygon mid-2023 · first community airdrop in November 2023, with **2,000+ signups on day one** and peak traffic of **up to 20,000 real unique visitors a day**, on top of a much larger wave of farming bots
 
 ---
 
@@ -84,7 +82,7 @@ We were a distributed team working with a founder in another country and another
 - **The founder as the first real user.** Every build went to him on his own phone. When an iOS-only bug showed up that we could not reproduce, we added BrowserStack so we could test on the same devices our users had.
 - **A shared board.** Trello from July 2021, then Jira with separate projects for the 1.0 platform, the ongoing improvement track, and the TCG token integration. Tickets moved through *Backlog → Selected for Development → Business QA → Ready for deployment → Done*, so nothing reached production without passing the client's own QA.
 - **Sprint planning with the client.** The founder and the product owner set priorities. I turned them into child issues, estimated them with the team, and briefed each developer.
-- **Open time logs.** From May 2022 every developer kept a daily log, with hours and what was done, in a report the client could open at any time. Invoices matched those logs.
+- **Radical time transparency.** From May 2022 every developer kept a daily log, with hours and what was done, in a report the client could open at any time. Invoices matched those logs.
 
 That last point matters more than it looks. A startup that is bleeding money needs to see where it is going. Nobody on the client side ever had to wonder what the team did last week.
 
@@ -165,13 +163,13 @@ Around the contracts:
 
 ### When traffic finally came: the airdrop and the bot farms
 
-On **1 November 2023** the company ran its first community airdrop campaign, ahead of an exchange listing. It worked better than anyone expected. **More than 2,000 users signed up on the first day** and watched more than a thousand videos. The Telegram group turned into what I called a notification bomb. I had to pull over while driving and mute it.
+On **1 November 2023** the company ran its first community airdrop campaign, ahead of an exchange listing. On paper it worked better than anyone expected. **More than 2,000 users signed up on the first day** and watched more than a thousand videos. The Telegram group turned into what I called a notification bomb. I had to pull over while driving and mute it.
 
 Within hours the platform started going down under the load. Within days we learned that a large share of that traffic was not people.
 
 A token that pays for watch time and referrals is an open invitation to farms. What we saw:
 
-- One referrer with **almost 10,000 referrals** and nearly 100,000 tokens
+- One referrer with **almost 10,000 referrals** and nearly 100,000 tokens, earned while the referral reward was still higher than the later 5 TCG rate
 - About **4,000 registrations in a single day**, a tenth of them through referral links from only about a hundred referrers
 - One wallet collecting tokens claimed from many accounts, passing **1.3 million TCG**. At one point that was roughly 10% of everything claimed so far
 - A single account sending 2,000 watch-time writes in one day
@@ -186,7 +184,7 @@ This is where on-chain design stops being theory. Whatever had already been writ
 
 Then we resumed claims.
 
-At the same time we were keeping the site up. We resized servers, profiled slow MySQL queries, and temporarily switched off server-side rendering so pages could be served faster under load. One day's analytics showed **10,770 unique visitors**.
+At the same time we were keeping the site up. We resized servers, profiled slow MySQL queries, and temporarily switched off server-side rendering so pages could be served faster under load. At peak, Cloudflare showed **up to 20,000 real unique visitors a day**, and the bot traffic farming the token was far larger than that.
 
 Not everything went cleanly, and I would rather say so. One night the distribution wallet ran out of MATIC for gas, so claims stalled. A failed on-chain transaction made users' earned tokens look like they had vanished, and the Telegram group melted down until we traced it. A reward-limit change went live before the previous day's earnings had been made claimable, and it wiped them. We restored them the next morning. Each time, the fix was fast. The lesson was that a token community watches every number in real time, and every operational slip becomes a public trust problem.
 
@@ -223,7 +221,7 @@ The references I trust most include this section, so here is mine.
 
 ### Where it ended
 
-Today's Crypto ran in production from 2021 into 2025: a closed beta, a public platform for creators and viewers, a full Web3 token economy on Polygon, and a community that at its peak brought thousands of signups a day. It was built and operated by a core team of four engineers and a small client team.
+Today's Crypto ran in production from 2021 into 2025: a closed beta, a public platform for creators and viewers, a full Web3 token economy on Polygon, and an airdrop that brought real users along with a lot of bots. It was built and operated by a core team of four engineers and a small client team.
 
 The company did not reach the funding round it was working toward, and the platform is no longer live as Today's Crypto. The core infrastructure we built was preserved and carried into the founder's next venture, which is the most direct evidence I have that the architecture outlived its first product.
 
@@ -231,7 +229,7 @@ The company did not reach the funding round it was working toward, and the platf
 
 Today's Crypto is the engagement where I learned what it means to be a CTO inside a startup rather than a lead inside a company.
 
-The technical lessons are clear. Rebuild early when the foundation is wrong. Split surfaces and data stores by how they are used. Design token systems so there is always a point between earning and settlement where humans can still intervene. That last one is what saved us when real traction arrived together with the people trying to farm it.
+The technical lessons are clear. Rebuild early when the foundation is wrong. Split surfaces and data stores by how they are used. Design token systems so there is always a point between earning and settlement where humans can still intervene. That last one is what saved us when the airdrop brought real users and, with them, the people trying to farm it.
 
 The organisational lessons were harder. In a startup the CTO owns the product *and* the pager, and a system is only as reliable as the least-covered hour of the person running it. Transparency, like daily time logs, a client-run QA stage and an honest incident log, kept a long cross-border relationship healthy through budget cuts, outages and a very public token launch.
 
@@ -248,13 +246,11 @@ Part of [[Sayman E-Commerce Case Study]]. English version of [[SaymanDigital Sto
 
 > [!info] At a glance
 > - **Client:** Sayman Digital, an e-commerce business launched on WordPress and later rebuilt on Laravel
-> - **Engagements:** three separate stints over several years: 2015, 2017, and 2019-2020
+> - **Engagements:** three separate returns over several years: 2015, 2017, and 2019-2020
 > - **Core role (2019-2020):** Development Team Lead, leading a five-person team through a full WordPress → Laravel migration
 > - **Scope:** requirements, architecture, platform evaluation, hiring, developer process, and hands-on execution
 > - **Scale at handover:** 5,000+ products, 20,000+ daily visitors, ~100 orders a day
 > - **A year later:** 274,000 clicks and 7.38M impressions from Google Search in a single month
->
-> For the short, site-ready version of the 2019-2020 rebuild, see [[Sayman — Website Case Study]].
 
 ---
 
@@ -286,7 +282,7 @@ From there the team moved to a custom theme and custom plugins built for Sayman 
 
 The second time I joined, development of the WordPress store was moving along on its own track and a strong development and content team had formed. Following the path set a couple of years earlier, the system had shifted from an off-the-shelf theme to a custom theme and plugins built specifically for the business.
 
-This time my work went beyond a single product. I helped with recruiting, and I set up core infrastructure the team did not yet have: a self-hosted GitLab instance, the server it ran on, and an internal ERP deployment.
+This time my work went beyond a single product. I helped with recruiting, and I set up core infrastructure the team did not yet have: a self-hosted GitLab instance and the server it ran on.
 
 The project I led was about pricing, one of the most important operations in any e-commerce business. We wanted to be able to update prices quickly, and to see competitors' prices well enough to stay competitive. I built an initial version of that system.
 
@@ -298,11 +294,11 @@ My working relationship with Sayman wound down that year, and the idea never wen
 
 #### Where the company stood
 
-By 2019 the WordPress version had matured into a substantial custom build. As a regional store it had around 20,000 active users and a catalogue of over 5,000 products, processing roughly a hundred orders a day.
+By 2019 the WordPress version had matured into a substantial custom build. As a regional store it had 20,000+ daily visitors and a catalogue of over 5,000 products, processing roughly a hundred orders a day.
 
 This was where WordPress started showing its limits. The option that had once been the best for this company, and had produced its best results, was now holding it back.
 
-Sayman Digital was now an established business with stable revenue. The first time I joined, the concern was getting started and launching quickly. Now the mindset had to change. Every operation, from supply and warehousing to sales and support, needed software that supported it instead of something people worked around.
+Sayman Digital was now an established business with stable revenue. The first time I joined, the concern was getting started and launching quickly. Now the mindset had to change. Every operation, from supply and warehousing to sales and support, needed software that supported it instead of something people worked around. So one of the first things I set up when I came back was an internal ERP deployment.
 
 #### Auditing a project already in flight
 
@@ -412,7 +408,7 @@ When the development process was formally written up later, those items were its
 
 #### Beyond engineering
 
-By mid-2021 the brief had widened past the development team. I was asked to draft the company's working processes as it grew: salary structure and transparency, a continuous evaluation system, seniority and loyalty factors, defined career progression, quarterly team goals, and proper onboarding packages for new hires.
+I kept consulting for Sayman after I stepped back from day-to-day work, and by mid-2021 the brief had widened past the development team. I was asked to draft the company's working processes as it grew: salary structure and transparency, a continuous evaluation system, seniority and loyalty factors, defined career progression, quarterly team goals, and proper onboarding packages for new hires.
 
 I will be straight about this one: that document was never finished. Its incentive and penalty sections are still empty headings. But being asked to write it at all says something about how far the role had travelled from "lead the developers."
 
@@ -446,7 +442,7 @@ That did double duty. It kept everyone aligned, and it built familiarity with th
 
 > One of the biggest risks in any migration is how comfortable an organisation's people feel about the change. Everyone always believes the old system was better. Starting familiarity early tells people their input is being weighed, and turns them into partners in the build rather than people the build happens to.
 
-In effect the development team was building the product in front of the whole company. Delivery meetings raised the pressure at first, but the confidence that comes from consistently shipping and presenting meant more deliverables at every step. Features reached test servers fast enough that the feedback loop (bugs, requests, UX changes, notes for later) stayed short.
+In effect the development team was building the product in front of the whole company. Delivery meetings raised the pressure at first, but shipping and presenting every time built confidence, and that meant more deliverables at every step. Features reached test servers fast enough that the feedback loop (bugs, requests, UX changes, notes for later) stayed short.
 
 #### Communication
 
@@ -458,7 +454,7 @@ My own emphasis on documentation did not automatically fix it. If anything it so
 
 The fix was ordinary, and it worked: more meetings, reading documents aloud together rather than assuming they had been read, and making sure everyone knew their feedback was heard and acted on.
 
-We put deliberate weight on the phrase **shared understanding**. That did not mean unanimous agreement on every approach. It meant always being able to explain the direction and name the blockers, even when not everything could be solved. Sprint meetings, daily standups, and openly available reports built that over time, both day to day and at the level of the bigger picture.
+We put deliberate weight on the phrase **shared understanding**. That did not mean unanimous agreement on every approach. It meant always being able to explain the direction and name the blockers, even when not everything could be solved. Sprint meetings, daily standups, and open reports built that over time, both day to day and for the bigger picture.
 
 #### Ownership
 
@@ -485,17 +481,17 @@ Owning a task end to end, from the details needed to start through the code and 
 
 In **June 2021**, roughly a year after the rebuild shipped and after my day-to-day involvement had ended, the platform recorded **274,000 clicks** and **7.38 million impressions** from Google Search in that single month.
 
-I want to be careful about how I claim that number. Search performance belongs substantially to the marketing and content teams, and by then the platform had been running and evolving without me for a year.
+Most of the credit for search numbers belongs to the marketing and content teams, and by then the platform had been running and evolving without me day to day for a year. So I don't count this as my result.
 
-That is why I find it the most satisfying figure in this story. A launch number only shows the start. This one shows that what we built kept carrying real commercial traffic long after the person who led the build had left.
+What I can take from it is smaller. A year after I stepped back, the team was running the platform on its own, and the system we built was still carrying that much real commercial traffic.
 
 ---
 
 ### What I take from it
 
-I worked with the same company three separate times, years apart, and that says something on its own. Each time it was a different problem: execution and tooling in 2015, a specific operational system in 2017, and a full platform and organisational rebuild in 2019.
+Three separate returns to the same company, years apart, says something on its own. Each time it was a different problem: execution and tooling in 2015, a specific operational system in 2017, and a full platform and organisational rebuild in 2019.
 
-What ties them together is that each engagement left something behind that outlived it. A WordPress store that grew into a full specialty platform. Infrastructure a growing team could stand on. And finally a Laravel platform, an integrated ERP, and a development culture that kept running and growing long after my day-to-day involvement ended.
+What ties them together is that each engagement left something behind that outlived it. A WordPress store that grew into a full specialty platform. Infrastructure a growing team could stand on. And finally a Laravel platform, an internal ERP, and a development culture that kept running and growing long after my day-to-day involvement ended.
 
 
 ---
@@ -519,7 +515,7 @@ Part of [[Asr'e Ahan]].
 
 ### Who the client was
 
-Asr'e Ahan is a steel and iron trading business with roughly thirty years behind it. The company started trading iron and steel in 1989, built its position the traditional way for that industry, on relationships, phone calls, and physical markets, and by 2019 had decided it needed to be online. It added an e-commerce arm and launched a marketplace for steel sections, connecting producers, distributors, and buyers directly: live pricing across the different steel products, market news, shipping, warehousing, credit sales, and pre-orders.
+Asr'e Ahan is a steel and iron trading business with more than 35 years behind it. The company started trading iron and steel in 1989, built its position the traditional way for that industry, on relationships, phone calls, and physical markets, and by 2019 had decided it needed to be online. It added an e-commerce arm and launched a marketplace for steel sections, connecting producers, distributors, and buyers directly: live pricing across the different steel products, market news, shipping, warehousing, credit sales, and pre-orders.
 
 That combination is what makes this engagement interesting. The company was strong and experienced in its own field, and it was entering one where none of that experience transferred. They knew steel. They did not know how software gets built, how developers are evaluated, or what a healthy development process looks like. Most important, they had no one inside who could tell good technical advice from bad.
 
@@ -590,7 +586,7 @@ The order here surprises people, so I want to be precise about it. Before we wro
 |---|---|
 | 8 July 2020 | First meeting: initial discussion and planning |
 | 10 July 2020 | **Drafting the development process documentation** (the longest single item that month) |
-| 11 July 2020 | Setting up GitLab; meeting with management |
+| 11 July 2020 | Getting access to the company's GitLab; meeting with management |
 | 22 July 2020 | Writing the developer job ad |
 | 24 July 2020 | Writing the old-team handover protocol |
 | 4 August 2020 | Reviewing GitLab, installing and testing the existing source code |
@@ -709,7 +705,7 @@ Alongside it, at the end of every month the client received a written report: wh
 
 Asr'e Ahan has continued for **more than five years** with the development team I hired and helped start, and it still does. The system we built is still running and still being updated.
 
-It is also in real use. The platform now handles around **60,000 visits a month** and carries **63 supplier partners** trading on it. I want to be careful about how I claim that: those are the numbers the business runs today, years after my involvement ended, and they belong to the team that kept building. That is why I find them the most satisfying figure in this story. A launch number only shows the start. These show that what we set up kept growing without me.
+It is also in real use. The platform now handles around **60,000 visits a month** and carries **63 supplier partners** trading on it. Those are today's numbers, years after my involvement ended, and they belong to the team that kept building. My part is narrower. I hired the team, helped write the process, and helped ship version one. What I count is that version one is still running and still being updated more than five years later.
 
 That is the actual goal, and it is a higher bar than shipping: a good software product built alongside a good software development process, both of which outlast the consultant.
 
