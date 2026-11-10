@@ -71,3 +71,12 @@ Answer to these questions. Don’t judge yourself, if it helps set a timer of 20
 > [!note]+ **Even if I had everything I could ever dream of what is one thing I would still need to be happy?**
 > Building, creating stuff that people use and admire. Having a family and raising good kids :)
 
+### Session 2026-11-10
+
+Done again on 2026-11-10 (with the Unstuck Challenge bot).
+
+- **Expected vs. want:** About 90% of my time goes to what's expected (OxinGame) and about 10% to what's truly mine (amiryousefi.com, GulfTech). I do choose OxinGame: it pays the bills, it's my brother's, and it's a big thing I want to be part of. The real issue is that my own 10% keeps getting squeezed out.
+- **What weighs on me most:** Fear of judgment. How will it look to others? What if people say the text is AI-written, or that my CV isn't worth my price? The domino effect: the site doesn't launch, so the outreach doesn't happen, so the income streams don't start, so I stay in the 9-to-5 loop.
+- **The one thing I'd still need to be happy:** "To build things." I'm a builder who keeps what he builds hidden.
+- **Takeaway:** "I'm dissatisfied that only 10% of my time goes to what's truly mine, and fear of judgment keeps what I build hidden."
+- **Next:** Day 2 (dream-life vision) on 2026-11-11. See [[Unstuck Challenge Day 2]].
