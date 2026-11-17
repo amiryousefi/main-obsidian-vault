@@ -49,3 +49,27 @@ Matt
 **PS.**
 
 Only two more days to go. You’ve got this!
+### Session 2026-11-17
+
+Done on 2026-11-17 (with the Unstuck Challenge bot).
+
+**Past failure (Nov 14):** I start articles, then abandon them for doomscrolling. My inner voice says: "I may not be worthy of it, I may leave it at some point, so why not leave it already?" Later I use the abandoned drafts as proof that I always quit.
+
+**Forgiveness letter:**
+> I forgive you for starting writing on Medium and abandoning it. It meant passive income, being seen, having an audience, and I loved it. I forgive you for leaving it. I forgive you for wasting your time doomscrolling on Instagram and everything else instead of doing your projects. I forgive you when fear hits and you don't continue what you started. I forgive you for being late, being sleepless, not caring for yourself, sabotaging your health. I forgive you for staying in a dirty office. I forgive you for all the contacts you lost. For procrastination.
+
+**Insight:** Quitting happens "when fear hits". It's protection from being seen, not a character flaw.
+
+**Excuses I'm letting go of:**
+- "I always quit" (I feel inconsistent, even with this practice).
+- "I'll start when I feel it or have the energy."
+- "Being seen scares me, so I avoid the audience."
+
+**Reframes:**
+- "I come back." I returned to Day 3 on my own after three days.
+- "I start small before I feel ready."
+- "I can be seen in small doses."
+
+**Takeaway:** "I'll start small before I feel ready, and I'm okay with being seen in small doses. It's okay to be messy and small. Just take the first step, whatever step it is."
+
+**Next:** Day 4, one focus area. See [[Unstuck Challenge - Day 4]].
