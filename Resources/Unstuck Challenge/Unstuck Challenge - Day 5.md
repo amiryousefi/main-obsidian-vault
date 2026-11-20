@@ -80,3 +80,19 @@ We’ll be announcing the 3 winners of the one-on-one coaching sessions in the g
 
 and you won’t hear another word about it!]
 
+
+---
+
+### Session 2026-11-20
+
+**Insight:** "One small thing a day" felt too vague; I'd slip away from it. I need a definitive time box.
+
+**Process:** I first proposed working on my company 9 to 5. To avoid the overhaul trap, I chose 9 to 11 instead.
+
+**30-day habit (Nov 21 to Dec 20, 2026):** "Every workday, from 9 to 11, first thing, I work only on my company, before OxinGame." On messy days, 15 minutes still counts.
+
+**Later:** Widen the box once it's automatic, toward half days and eventually 9 to 5.
+
+**Challenge takeaway:** From "I always quit" to "I build things from start to finish, and I show up every morning."
+
+Back to [[Unstuck Challenge]] · Previous: [[Unstuck Challenge - Day 4]]
