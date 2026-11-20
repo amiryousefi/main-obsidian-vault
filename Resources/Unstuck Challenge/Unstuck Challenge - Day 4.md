@@ -49,3 +49,18 @@ Matt
 **PS.**
 
 If you find other people in the group who want to work on the same area as you, why not try connecting with them? This is the perfect chance for you to pair up with an accountability buddy so you can both commit to your goals for the next 30 days!
+---
+
+### Session 2026-11-20
+
+**Focus area:** Career and business, through my own company (consulting plus publishing, built on my website).
+
+**Goal (one year or more):** Earn half a million dollars through my company.
+
+**What it means to me:** Financial freedom. Time to invest in and build things I like. More time to travel and be with family. Proof that I can do it all, from production to sale to management.
+
+**Insight:** On Day 3, my abandoned drafts were "proof I always quit." Now I want proof that I can build something whole. Asked whether I need the $500K before I let myself believe it: "I can be like that from today."
+
+**Takeaway:** "My focus is my company. My goal is $500K, for freedom, time to build, travel, and family. I'm someone who builds things from production to sale, starting today."
+
+**Next:** [[Unstuck Challenge - Day 5]], one 30-day habit.
